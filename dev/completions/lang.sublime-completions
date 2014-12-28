@@ -1,9 +1,0 @@
-{
-	"scope": "source.gml",
-	"completions":	[
-		{"trigger": "is_array\tboolean", "contents": "is_array(${1:variable})$0" },
-{"trigger": "array_height_2d\tFUNCTION", "contents": "array_height_2d(${1:stuff})$0" },
-{"trigger": "array_length_1d\tFUNCTION", "contents": "array_length_1d(${1:stuff})$0" },
-{"trigger": "array_length_2d\tFUNCTION", "contents": "array_length_2d(${1:stuff})$0" }
-	]
-}
