@@ -1,0 +1,27 @@
+{
+    "scope": "source.gml",
+    "completions": [
+		{"trigger": "place_empty\tboolean", "contents": "place_empty(${1:targetX},${2:targetY})$0" },
+		{"trigger": "place_free\tboolean", "contents": "place_free(${1:targetX},${2:targetY})$0" },
+		{"trigger": "place_meeting\tboolean", "contents": "place_meeting(${1:targetX},${2:targetY},${3:object})$0" },
+		{"trigger": "position_empty\tboolean", "contents": "position_empty(${1:targetX},${2:targetY})$0" },
+		{"trigger": "position_meeting\tboolean", "contents": "position_meeting(${1:targetX},${2:targetY},${3:object})$0" },
+
+		{"trigger": "position_change\tvoid", "contents": "position_change(${1:targetX},${2:targetY},${3:object},${4:performCreateEvent?})$0" },
+		{"trigger": "position_destroy\tvoid", "contents": "position_destroy(${1:targetX},${2:targetY})$0" },
+
+		{"trigger": "collision_circle\tinstanceID", "contents": "collision_circle(${1:targetX},${2:targetY},${3:circleRadius},${4:object},${5:preciseCollision?},${6:notMe?})$0" },
+		{"trigger": "collision_line\tinstanceID", "contents": "collision_line(${1:startX},${2:startY},${3:finishX},${4:finishY},${5:object},${6:preciseCollision?},${7:notMe?})$0" },
+		{"trigger": "collision_ellipse\tinstanceID", "contents": "collision_ellipse(${1:left},${2:top},${3:right},${4:bottom},${5:object},${6:preciseCollision?},${7:notMe?})$0" },
+		{"trigger": "collision_point\tinstanceID", "contents": "collision_point(${1:targetX},${2:targetY},${3:object},${4:preciseCollision?},${5:notMe?})$0" },
+		{"trigger": "collision_rectangle\tinstanceID", "contents": "collision_rectangle(${1:left},${2:top},${3:right},${4:bottom},${5:object},${6:preciseCollision?},${7:notMe?})$0" },
+
+		{"trigger": "point_in_circle\tboolean", "contents": "point_in_circle(${1:pointX},${2:pointY},${3:circleCenterX},${4:circleCenterY},${5:circleRadius})$0" },
+		{"trigger": "point_in_rectangle\tboolean", "contents": "point_in_rectangle(${1:pointX},${2:pointY},${3:left},${4:top},${5:right},${6:bottom})$0" },
+		{"trigger": "point_in_triangle\tboolean", "contents": "point_in_triangle(${1:pointX},${2:pointY},${3:aX},${4:aY},${5:bX},${6:bY},${7:cX},${8:cY})$0" },
+
+		{"trigger": "rectangle_in_circle\tinteger", "contents": "rectangle_in_circle(${1:left},${2:top},${3:right},${4:bottom},${5:circleCenterX},${6:circleCenterY},${7:circleRadius})$0" },
+		{"trigger": "rectangle_in_rectangle\tinteger", "contents": "rectangle_in_rectangle(${1:sourceLeft},${2:sourceTop},${3:sourceRight},${4:sourceBottom},${5:targetLeft},${6:targetTop},${7:targetRight},${8:targetBottom})$0" },
+		{"trigger": "rectangle_in_triangle\tinteger", "contents": "rectangle_in_triangle(${1:left},${2:top},${3:right},${4:bottom},${5:aX},${6:aY},${7:bX},${8:bY},${9:cX},${10:cY})$0" }
+    ]
+}

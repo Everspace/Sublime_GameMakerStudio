@@ -1,0 +1,781 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"comment"
+			],
+			[
+				"o",
+				"oscillationFrequency_hertz"
+			],
+			[
+				"axi",
+				"axis_vectorY"
+			],
+			[
+				"ax",
+				"axis_vectorX"
+			],
+			[
+				"worldY",
+				"anchor_worldY"
+			],
+			[
+				"inst",
+				"firstInstance"
+			],
+			[
+				"an",
+				"anchor_worldY"
+			],
+			[
+				"con",
+				"constant"
+			],
+			[
+				"a1x",
+				"anchor1_worldX"
+			],
+			[
+				"a2x",
+				"anchor2_worldX"
+			],
+			[
+				"a2y",
+				"anchor2_worldY"
+			],
+			[
+				"world",
+				"anchor1_worldX"
+			],
+			[
+				"anchor_wo",
+				"anchor_worldY"
+			],
+			[
+				"w",
+				"anchor_worldX"
+			],
+			[
+				"f",
+				"firstInstance_anchor_relativeX"
+			],
+			[
+				"an1",
+				"anchor1_worldY"
+			],
+			[
+				"a2",
+				"anchor2_worldX"
+			],
+			[
+				"wo",
+				"anchor1_worldX"
+			],
+			[
+				"phy_joint_mo",
+				"phy_joint_motor_force	constant"
+			],
+			[
+				"phy_m",
+				"phy_joint_max_motor_force	physics constant"
+			],
+			[
+				"re",
+				"rectangle_in_triangle	integer"
+			],
+			[
+				"circle",
+				"circleCenterX"
+			],
+			[
+				"d",
+				"direction"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"da",
+				"datetime2"
+			],
+			[
+				"ra",
+				"radians"
+			],
+			[
+				"de",
+				"degrees"
+			],
+			[
+				"arc",
+				"arctan2	real"
+			],
+			[
+				"array2",
+				"array_length_2d	FUNCTION"
+			],
+			[
+				"fal",
+				"fa_left	CONSTANT"
+			],
+			[
+				"ps",
+				"ps_change_shape	CONSTANT"
+			],
+			[
+				"ab",
+				"achievement_challenge_completed_by_remote	CONSTANT"
+			],
+			[
+				"a",
+				"abs	functions"
+			],
+			[
+				"c",
+				"captures	captures:"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "completions/game/input/keyboard.sublime-completions",
+			"settings":
+			{
+				"buffer_size": 5666,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/completions/_gml_functions.sublime-completions",
+			"settings":
+			{
+				"buffer_size": 119477,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/completions/_gml_constants.sublime-completions",
+			"settings":
+			{
+				"buffer_size": 32706,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "completions/obsolete.sublime-completions",
+			"settings":
+			{
+				"buffer_size": 3219,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"subc",
+				"Set Syntax: Sublime Completions"
+			],
+			[
+				"Macro",
+				"Set Syntax: Sublime Text Macro"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"ssj",
+				"Set Syntax: JSON"
+			],
+			[
+				"Snipp",
+				"Snippet: functions"
+			],
+			[
+				"Snippet: ",
+				"Snippet: functions"
+			],
+			[
+				"",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Co",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"I",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Packag",
+				"Package Control: Install Package"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ssgs",
+				"Set Syntax: OpenGL SL"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"set Sublime",
+				"Set Syntax: Sublime Text Syntax Def (YAML)"
+			]
+		],
+		"width": 520.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/T/SublimeText 3/Data/Packages/GML",
+		"/T/SublimeText 3/Data/Packages/GML/completions/game",
+		"/T/SublimeText 3/Data/Packages/GML/completions/game/assets",
+		"/T/SublimeText 3/Data/Packages/GML/completions/game/input",
+		"/T/SublimeText 3/Data/Packages/GML/completions/game/movement",
+		"/T/SublimeText 3/Data/Packages/GML/completions/game/objects",
+		"/T/SublimeText 3/Data/Packages/GML/completions/physics",
+		"/T/SublimeText 3/Data/Packages/GML/completions/primitives",
+		"/T/SublimeText 3/Data/Packages/GML/dev/completions",
+		"/T/SublimeText 3/Data/Packages/GML/dev/raw"
+	],
+	"file_history":
+	[
+		"/T/SublimeText 3/Data/Packages/GML/completions/game/movement/collision.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/game/input/keyboard.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/game/input/gamepad.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/dev/completions/obsolete.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/dev/completions/input.sublime-completions",
+		"/S/GenericPlatformer.gmx/scripts/InputManager.gml",
+		"/T/SublimeText 3/Data/Packages/User/macros/test.sublime-macro",
+		"/T/SublimeText 3/Data/Packages/GML/completions/physics/joint.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/snippets/default.sublime-snippet",
+		"/T/SublimeText 3/Data/Packages/GML/snippets/while.sublime-snippet",
+		"/T/SublimeText 3/Data/Packages/GML/snippets/for.sublime-snippet",
+		"/T/SublimeText 3/Data/Packages/GML/snippets/else.sublime-snippet",
+		"/T/SublimeText 3/Data/Packages/GML/dev/completions/_internalFunctions.txt",
+		"/T/SublimeText 3/Data/Packages/GML/snippets/#define.sublime-snippet",
+		"/T/SublimeText 3/Data/Packages/GML/snippets/elif.sublime-snippet",
+		"/T/SublimeText 3/Data/Packages/GML/snippets/case.sublime-snippet",
+		"/C/Users/Aaron/AppData/Local/Temp/7zO8B783CD0/#ifndef-#define-#endif.sublime-snippet",
+		"/T/SublimeText 3/Data/Packages/GML/dev/completions/_template.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/dev/completions/joint.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/User/macros/sublimesnippet_toArgumentFormat",
+		"/T/SublimeText 3/Data/Packages/GML/dev/completions/_gml_functions.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/dev/completions/internalFunctions.txt",
+		"/T/SublimeText 3/Data/Packages/GML/dev/completions/gml_functions.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/dev/gml_functions.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/game/movement/movement.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/dev/constants.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/dev/collision.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/dev/movement.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/dev/lang.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/dev/keywords.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/primitives/datetime.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/primitives/math.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/dev/strings.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/functions/gml_functions.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/dev/datetime.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/lang.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/functions/input.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/constants.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/functions/math.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/special.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/variables_local.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/functions/datastructures.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/functions/strings.sublime-completions",
+		"/S/GenericPlatformer.gmx/objects/obj_overlord.object.gmx",
+		"/T/SublimeText 3/Data/Packages/GML/completions/gml_variables_local.sublime-completions",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/GML/dev/raw/builtin_functions.txt",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/GML/dev/raw/builtin_constants.txt",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/GML/dev/raw/builtin_keywords.txt",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/GML/dev/raw/builtin_variables.txt",
+		"/T/SublimeText 3/Data/Packages/GML/dev/raw/builtin_variables.txt",
+		"/T/SublimeText 3/Data/Packages/GML/dev/raw/builtin_keywords.txt",
+		"/T/SublimeText 3/Data/Packages/GML/dev/raw/builtin_constants.txt",
+		"/T/SublimeText 3/Data/Packages/GML/dev/raw/builtin_functions.txt",
+		"/T/SublimeText 3/Data/Packages/GML/completions/gml_keywords.sublime-completions",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/bin/MakeRelease.ps1",
+		"/T/SublimeText 3/Data/Packages/GML/completions/gml_functions.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/GML/completions/gml_constants.sublime-completions",
+		"/T/SublimeText 3/Data/Packages/User/Preferences.sublime-settings",
+		"/T/SublimeText 3/Data/Packages/GML/gml.YAML-tmLanguage",
+		"/T/SublimeText 3/Data/Packages/GML/snippets/functions.sublime-macro",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/GML/gml.YAML-tmLanguage",
+		"/S/Temp/test.cpp",
+		"/S/Temp/C++.tmLanguage",
+		"/S/GenericPlatformer.gmx/scripts/util.gml",
+		"/C/Users/Aaron/AppData/Local/Temp/7zE032C0B90/C++.tmLanguage",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/GML/gml.tmLanguage",
+		"/T/SublimeText 3/Data/Packages/GML/Sublime Text Syntax Def (YAML).YAML-tmLanguage",
+		"/C/Users/Aaron/AppData/Local/Temp/7zE47DC22BB/Sublime Text Syntax Def (YAML).YAML-tmLanguage",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/T/SublimeText 3/Data/Packages/User/Colorsublime.sublime-settings",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/Completions Development/Completions.sublime-completions",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Support/YAML Syntax Definition/Symbol List.tmPreferences",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/JSON Syntax Definitions/begin.sublime-snippet",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/JSON Syntax Definitions/capture.sublime-snippet",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/JSON Syntax Definitions/captures.sublime-snippet",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/JSON Syntax Definitions/comment.sublime-snippet",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/JSON Syntax Definitions/ecaptures-(endCaptures).sublime-snippet",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/JSON Syntax Definitions/ftypes-(fileTypes).sublime-snippet",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/JSON Syntax Definitions/include.sublime-snippet",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/JSON Syntax Definitions/key.sublime-snippet",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/JSON Syntax Definitions/match.sublime-snippet",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/JSON Syntax Definitions/patterns.sublime-snippet",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/JSON Syntax Definitions/repository.sublime-snippet",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/JSON Syntax Definitions/(repoit) Repository Item.sublime-snippet",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/JSON Syntax Definitions/bcaptures-(beginCaptures).sublime-snippet",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/AAAPackageDev/Snippets/Commands/Commands.sublime-completions",
+		"/S/GenericPlatformer.gmx/scripts/print.gml",
+		"/S/GenericPlatformer.gmx/GenericPlatformer.project.gmx",
+		"/S/GenericPlatformer.gmx/scripts/scr_InputManager.gml",
+		"/S/GenericPlatformer.gmx/scripts/concat.gml",
+		"/S/GenericPlatformer.gmx/shaders/shader0.shader",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/XML/XML.tmLanguage",
+		"/S/GenericPlatformer.gmx/GenericPlatformer.sublime-project",
+		"/S/GenericPlatformer.gmx/GenericPlatformer.sublime-workspace",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/User/GML/gml.YAML-tmLanguage",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/S/GenericPlatformer.gmx/sprites/spr_player.sprite.gmx",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/GML/gml.YAML-tmLanguage.nice",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/User/gml.sublime-settings",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/User/Sublime Text Syntax Def (YAML).sublime-settings",
+		"/C/Users/Aaron/AppData/Roaming/Sublime Text 2/Packages/GML/gamemakerlanguage.YAML-tmLanguage.nice"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"S:\\GenericPlatformer.gmx"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"CONSTANT",
+			"{\"comment\":",
+			"_key",
+			"\"key",
+			"key",
+			"keyboard_key",
+			"stuff",
+			"FUNCTION",
+			"stuff",
+			"FUNCTION",
+			"tCONSTANT",
+			"1",
+			"FUNCTION",
+			"${1:stuff}",
+			"FUNCTION",
+			"\\$\\{1:stuff\\}",
+			"${1:stuff}",
+			"FUNCTION",
+			"${1:stuff}",
+			"****",
+			"for",
+			"if",
+			"case",
+			"\"},\n",
+			"CONSTANT",
+			"\"},\n",
+			"\"contents\":",
+			"t\", ",
+			"		",
+			"t\", ",
+			", ",
+			" ",
+			"FUNCTION",
+			"}",
+			"first",
+			"},\n",
+			"\"args\":{\"characters\": \":\"}",
+			"\"args\":.*?\\},",
+			"\"args\":{\"characters\": \":\"},",
+			"\"args\":.*?\\},",
+			"\"args\".*?\\}",
+			"\\{\"args\".*?\\},",
+			"\"args\":{\"characters\": \":\"}",
+			"		",
+			"			",
+			"		",
+			"},",
+			"${:",
+			"{",
+			"CONSTANT",
+			"}",
+			"CONSTANT",
+			"tCONSTANT",
+			"CONSTANT",
+			"physics",
+			"physics_",
+			"physics_joint_prismatic_create",
+			"r\": \"physics_join",
+			":",
+			"target",
+			"boolean",
+			"${object},${preciseCollision?},${notMe?}",
+			"FUNCTION",
+			"tFUNCTION",
+			"FUNCTION",
+			"${1:stuff}",
+			"FUNCTION",
+			"tFUNCTION",
+			"object},${preciseCollision?},${notMe?}",
+			"${1:stuff}",
+			"stuff",
+			"FUNCTION",
+			"stuff",
+			"move_",
+			"variable",
+			"content",
+			"FUNCTION",
+			"stuff",
+			"FUNCTION",
+			"string",
+			"FUNCTION",
+			"date_",
+			"get_timer",
+			"date_current_datetime",
+			"current",
+			"_year",
+			"FUNCTION",
+			"${1:stuff}",
+			"stuff",
+			"FUNCTION",
+			"stuff",
+			"current_year",
+			"current_month",
+			"stuff",
+			"_date",
+			", ",
+			"\\t",
+			"}",
+			"${4:}",
+			"dot_product_3d",
+			"3d",
+			"stuff",
+			"FUNCTION",
+			"stuff",
+			"},\n",
+			"stuff",
+			"FUNCTION",
+			"\"conten",
+			"stuff",
+			"FUNCTION",
+			"1",
+			"floor",
+			"im_update_gamepadState",
+			"im_update",
+			"\" \\},",
+			" trigger\": ",
+			"^",
+			"zip_unzip",
+			"^",
+			"self",
+			"global",
+			"all",
+			"\\t",
+			"^\"(.+)\",",
+			"\\\\tCONSTANT",
+			"\",",
+			"$",
+			"^|$"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"OBSOLETE",
+			"tconstant",
+			"\\$1",
+			"(\\${1:stuff})\\$0\" \\},",
+			"",
+			"\\t{\"trigger\": \"$1\\\\tCONSTANT\", \"contents\": \"$1\"},",
+			"\\t{\"trigger\": \"$1\\\\tCONSTANT\", \"contents\": \"$1\"}",
+			"^\\t{\"trigger\": \"$0\\\\tCONSTANT\", \"contents\": \"$0\"}",
+			"^\\t{\"trigger\": \"\\0\\\\tCONSTANT\", \"contents\": \"\\0\"}",
+			"",
+			"\\\\tCONSTANT\",",
+			",",
+			"\"",
+			"\\n",
+			"\\|",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "T:\\SublimeText 3\\Data\\Packages\\GML"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "completions/game/input/keyboard.sublime-completions",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2484,
+								2484
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AAAPackageDev/Syntax Definitions/Sublime Completions.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dev/completions/_gml_functions.sublime-completions",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98226,
+								98226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AAAPackageDev/Syntax Definitions/Sublime Completions.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dev/completions/_gml_constants.sublime-completions",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32706,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2851,
+								2851
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AAAPackageDev/Syntax Definitions/Sublime Completions.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "completions/obsolete.sublime-completions",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AAAPackageDev/Syntax Definitions/Sublime Completions.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.package_dev":
+	{
+		"height": 100.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"con",
+				"scripts/concat.gml"
+			],
+			[
+				"pr",
+				"scripts/print.gml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 342.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

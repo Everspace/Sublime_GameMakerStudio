@@ -1,0 +1,40 @@
+{
+    "scope": "source.gml",
+    "completions": [
+		{"trigger": "direction\tlocal real", "contents": "direction"},
+		{"trigger": "friction\tlocal real", "contents": "friction"},
+		{"trigger": "gravity\tlocal real", "contents": "gravity"},
+		{"trigger": "gravity_direction\tlocal real", "contents": "gravity_direction"},
+		{"trigger": "hspeed\tlocal real", "contents": "hspeed"},
+		{"trigger": "vspeed\tlocal real", "contents": "vspeed"},
+		{"trigger": "speed\tlocal real", "contents": "speed"},
+		{"trigger": "x\tlocal real", "contents": "x"},
+		{"trigger": "y\tlocal real", "contents": "y"},
+		{"trigger": "xprevious\tlocal real", "contents": "xprevious"},
+		{"trigger": "yprevious\tlocal real", "contents": "yprevious"},
+		{"trigger": "xstart\tlocal real", "contents": "xstart"},
+		{"trigger": "ystart\tlocal real", "contents": "ystart"},
+
+		{"trigger": "place_snapped\tboolean", "contents": "place_snapped(${1:horizontalSnap},${2:verticalSnap})$0" },
+
+		{"trigger": "distance_to_object\treal", "contents": "distance_to_object(${1:obj_})$0" },
+		{"trigger": "distance_to_point\treal", "contents": "distance_to_point(${1:targetX},${2:targetY})$0" },
+
+		{"trigger": "motion_add\tvoid", "contents": "motion_add(${1:direction},${2:speed})$0" },
+		{"trigger": "motion_set\tvoid", "contents": "motion_set(${1:direction},${2:speed})$0" },
+		{"trigger": "move_towards_point\tvoid", "contents": "move_towards_point(${1:targetX},${2:targetY},${3:speed})$0" },
+		
+		{"trigger": "move_contact\tvoid", "contents": "move_contact(${1:direction},${2:maxDistance})$0" },
+		{"trigger": "move_contact_solid\tvoid", "contents": "move_contact_solid(${1:direction},${2:maxDistance})$0" },
+		{"trigger": "move_outside_solid\tvoid", "contents": "move_outside_solid(${1:direction},${2:maxDistance})$0" },
+		{"trigger": "move_contact_all\tvoid", "contents": "move_contact_all(${1:direction},${2:maxDistance})$0" },
+		{"trigger": "move_outside_all\tvoid", "contents": "move_outside_all(${1:direction},${2:maxDistance})$0" },
+
+		{"trigger": "move_bounce_all\tvoid", "contents": "move_bounce_all(${1:true})$0" },
+		{"trigger": "move_bounce_solid\tvoid", "contents": "move_bounce_solid(${1:true})$0" },
+
+		{"trigger": "move_random\tvoid", "contents": "move_random(${1:horizontalSnap},${2:verticalSnap})$0" },
+		{"trigger": "move_snap\tvoid", "contents": "move_snap(${1:horizontalSnap},${2:verticalSnap})$0" },
+		{"trigger": "move_wrap\tvoid", "contents": "move_wrap(${1:wrapHorizontal?},${1:wrapVertical?},${3:marginBeforeWrap})$0" }
+    ]
+}

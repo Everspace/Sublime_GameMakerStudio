@@ -1,0 +1,77 @@
+{
+	"scope": "source.gml",
+	"completions":	[
+		{"trigger": "pi\tconst", "contents": "pi"},
+
+		{"trigger": "sqr\treal", "contents": "sqr(${1:value})$0" },
+		{"trigger": "sqrt\treal", "contents": "sqrt(${1:value})$0" },
+		{"trigger": "exp\treal", "contents": "exp(${1:power})$0" },
+		{"trigger": "power\treal", "contents": "power(${1:base},${2:power})$0" },
+		{"trigger": "ln\treal", "contents": "ln(${1:value})$0" },
+		{"trigger": "log10\treal", "contents": "log10(${1:value})$0" },
+		{"trigger": "log2\treal", "contents": "log2(${1:value})$0" },
+		{"trigger": "logn\treal", "contents": "logn(${1:base},${2:value})$0" },
+
+		{"trigger": "max\treal", "contents": "max(${1:values...})$0" },
+		{"trigger": "mean\treal", "contents": "mean(${1:values...})$0" },
+		{"trigger": "median\treal", "contents": "median(${1:values...})$0" },
+		{"trigger": "min\treal", "contents": "min(${1:values...})$0" },
+		{"trigger": "abs\treal", "contents": "abs(${1:value})$0" },
+		{"trigger": "ceil\tinteger", "contents": "ceil(${1:value})$0" },
+		{"trigger": "floor\tinteger", "contents": "floor(${1:value})$0" },
+		{"trigger": "clamp\treal", "contents": "clamp(${1:value},${2:min},${3:max})$0" },
+		{"trigger": "round\tinteger", "contents": "round(${1:value})$0" },
+		{"trigger": "lerp\treal", "contents": "lerp(${1:start},${2:finish},${3:percentage})$0" },
+
+		{"trigger": "sign\tinteger", "contents": "sign(${1:value})$0" },
+		{"trigger": "frac\treal", "contents": "frac(${1:value})$0" },
+		
+
+
+		{"trigger": "radtodeg\tdegrees", "contents": "radtodeg(${1:radians})$0" },
+		{"trigger": "degtorad\tradians", 	"contents": "degtorad(${1:degrees})$0" },
+
+		{"trigger": "cos\treal", 			"contents": "cos(${1:radians})$0" },
+		{"trigger": "sin\treal", 			"contents": "sin(${1:radians})$0" },
+		{"trigger": "tan\treal", 			"contents": "tan(${1:radians})$0" },
+		{"trigger": "arccos\treal", 		"contents": "arccos(${1:radians})$0" },
+		{"trigger": "arcsin\treal", 		"contents": "arcsin(${1:radians})$0" },
+		{"trigger": "arctan\treal", 		"contents": "arctan(${1:radians})$0" },
+		{"trigger": "arctan2\tradians", 	"contents": "arctan2(${1:x},${2:y})$0" },
+		{"trigger": "dcos\treal",			"contents": "dcos(${1:degrees})$0" },
+		{"trigger": "dsin\treal",			"contents": "dsin(${1:degrees})$0" },
+		{"trigger": "dtan\treal",			"contents": "dtan(${1:degrees})$0" },
+		{"trigger": "darccos\treal",		"contents": "darccos(${1:degrees})$0" },
+		{"trigger": "darcsin\treal",		"contents": "darcsin(${1:degrees})$0" },
+		{"trigger": "darctan\treal",		"contents": "darctan(${1:degrees})$0" },
+		{"trigger": "darctan2\tdegrees",	"contents": "darctan2(${1:x},${2:y})$0" },
+
+		{"trigger": "lengthdir_x\treal", "contents": "lengthdir_x(${1:radius},${2:degreeAngle})$0" },
+		{"trigger": "lengthdir_y\treal", "contents": "lengthdir_y(${1:radius},${2:degreeAngle})$0" },
+
+
+
+		{"trigger": "randomize\tvoid", "contents": "randomize()$0" },
+		{"trigger": "random_set_seed\tvoid", "contents": "random_set_seed(${1:seed})$0" },
+		{"trigger": "random_get_seed\treal", "contents": "random_get_seed()$0" },
+
+		{"trigger": "choose\tvalue", "contents": "choose(${1:values...})$0" },
+		{"trigger": "random_range\treal", "contents": "random_range(${1:low},${2:high})$0" },
+		{"trigger": "random\treal", "contents": "random(${1:number})$0" },
+		{"trigger": "irandom\tinteger", "contents": "irandom(${1:number})$0" },
+		{"trigger": "irandom_range\tinteger", "contents": "irandom_range(${1:low},${2:high})$0" },
+
+
+
+		{"trigger": "dot_product\treal", "contents": "dot_product(${1:x1},${2:y1},${3:x2},${4:y2})$0" },
+		{"trigger": "dot_product_normalised\treal", "contents": "dot_product_normalised(${1:x1},${2:y1},${3:x2},${4:y2})$0" },
+		{"trigger": "dot_product_3d\treal", "contents": "dot_product_3d(${1:x1},${2:y1},${3:z1},${4:x2},${5:y2},${6:z2})$0" },
+		{"trigger": "dot_product_3d_normalised\treal", "contents": "dot_product_3d_normalised(${1:x1},${2:y1},${3:z1},${4:x2},${5:y2},${6:z2})$0" },
+
+		{"trigger": "angle_difference\tdegrees", "contents": "angle_difference(${1:degree1},${2:degree2})$0" },
+		{"trigger": "point_direction\tdegrees", "contents": "point_direction(${1:x1},${2:y1},${3:x2},${4:y2})$0" },
+		{"trigger": "point_distance\treal", "contents": "point_distance(${1:x1},${2:y1},${3:x2},${4:y2})$0" },
+		{"trigger": "point_distance_3d\treal", "contents": "point_distance_3d(${1:x1},${2:y1},${3:z1},${4:x2},${5:y2},${6:z2})$0" },
+	]
+
+}

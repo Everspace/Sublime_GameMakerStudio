@@ -1,0 +1,18 @@
+{
+	"scope": "source.gml",
+	"completions": [
+
+		{"trigger": "all\tKEYWORD CONSTANT", "contents": "all"},
+		{"trigger": "false\tKEYWORD CONSTANT", "contents": "false"},
+		{"trigger": "noone\tKEYWORD CONSTANT", "contents": "noone"},
+		{"trigger": "true\tKEYWORD CONSTANT", "contents": "true"},
+		{"trigger": "undefined\tKEYWORD CONSTANT", "contents": "undefined"},
+
+		{"trigger": "global\tSPECIAL VARIABLE", "contents": "global"},
+		{"trigger": "local\tSPECIAL VARIABLE", "contents": "local"},
+		{"trigger": "other\tSPECIAL VARIABLE", "contents": "other"},
+		{"trigger": "self\tSPECIAL VARIABLE", "contents": "self"},
+
+		{"trigger": "lives\tGM AUTOVAR", "contents": "lives"}
+	]
+}

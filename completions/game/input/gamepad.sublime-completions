@@ -1,0 +1,65 @@
+{
+    "scope": "source.gml",
+    "completions": [
+	
+{"comment": "**** Constants ****"},
+		{"comment": "==== Buttons  ===="},
+		{"trigger": "gp_face1\tconstant", "contents": "gp_face1", "comment": "Top1/A/Cross"},
+		{"trigger": "gp_face2\tconstant", "contents": "gp_face2", "comment": "Top2/B/Circle"},
+		{"trigger": "gp_face3\tconstant", "contents": "gp_face3", "comment": "Top3/X/Square"},
+		{"trigger": "gp_face4\tconstant", "contents": "gp_face4", "comment": "Top4/Y/Triangle"},
+
+		{"trigger": "gp_shoulderl\tconstant", "contents": "gp_shoulderl", "comment": "L1"},
+		{"trigger": "gp_shoulderlb\tconstant", "contents": "gp_shoulderlb", "comment": "L2"},
+		{"trigger": "gp_shoulderr\tconstant", "contents": "gp_shoulderr", "comment": "R1"},
+		{"trigger": "gp_shoulderrb\tconstant", "contents": "gp_shoulderrb", "comment": "R2"},
+
+		{"trigger": "gp_select\tconstant", "contents": "gp_select"},
+		{"trigger": "gp_start\tconstant", "contents": "gp_start"},
+
+		{"trigger": "gp_stickl\tconstant", "contents": "gp_stickl", "comment": "Stick Pressed"},
+		{"trigger": "gp_stickr\tconstant", "contents": "gp_stickr", "comment": "Stick Pressed"},
+
+		{"comment": "==== Pad Down/Left/Right/Up ===="},
+		{"trigger": "gp_padd\tconstant", "contents": "gp_padd"},
+		{"trigger": "gp_padl\tconstant", "contents": "gp_padl"},
+		{"trigger": "gp_padr\tconstant", "contents": "gp_padr"},
+		{"trigger": "gp_padu\tconstant", "contents": "gp_padu"},
+
+		{"comment": "==== Stick Axes  ===="},
+		{"trigger": "gp_axislh\tconstant", "contents": "gp_axislh"},
+		{"trigger": "gp_axislv\tconstant", "contents": "gp_axislv"},
+		{"trigger": "gp_axisrh\tconstant", "contents": "gp_axisrh"},
+		{"trigger": "gp_axisrv\tconstant", "contents": "gp_axisrv"},
+		
+{"comment": "**** Functions ****"},
+
+		{"comment": "==== Primary Checks  ===="},
+		{"trigger": "gamepad_button_check\tboolean", "contents": "gamepad_button_check(${1:slotNumber},${1:buttonConstant})$0" },
+		{"trigger": "gamepad_button_check_pressed\tboolean", "contents": "gamepad_button_check_pressed(${1:slotNumber},${1:buttonConstant})$0" },
+		{"trigger": "gamepad_button_check_released\tboolean", "contents": "gamepad_button_check_released(${1:slotNumber},${1:buttonConstant})$0" },
+		{"trigger": "gamepad_button_value\treal", "contents": "gamepad_button_value(${1:slotNumber},${1:buttonConstant})$0" },
+
+		{"trigger": "gamepad_axis_value\treal", "contents": "gamepad_axis_value(${1:slotNumber},${1:axis})$0" },
+
+		{"comment": "==== Get/Set ===="},
+		{"trigger": "gamepad_set_button_threshold\tvoid", "contents": "gamepad_set_button_threshold(${1:slotNumber},${2:threshold})$0" },
+		{"trigger": "gamepad_get_button_threshold\treal", "contents": "gamepad_get_button_threshold(${1:slotNumber})$0" },
+
+		{"trigger": "gamepad_set_axis_deadzone\tvoid", "contents": "gamepad_set_axis_deadzone(${1:slotNumber},${2:deadzone})$0" },
+		{"comment": "!!Undocumented!!", "trigger": "gamepad_get_axis_deadzone\treal", "contents": "gamepad_get_axis_deadzone(${1:slotNumber})$0"},
+
+		{"trigger": "gamepad_set_color\tvoid", "contents": "gamepad_set_color(${1:slotNumber},${2:color})$0" },
+		{"trigger": "gamepad_set_colour\tvoid", "contents": "gamepad_set_colour(${1:slotNumber},${2:colour})$0" },
+		
+		{"trigger": "gamepad_set_vibration\tvoid", "contents": "gamepad_set_vibration(${1:slotNumber},${2:leftMotorPowerPercentage},${3:rightMotorPowerPercentage})$0" },
+
+		{"comment": "==== Device Info ===="},
+		{"trigger": "gamepad_is_connected\tboolean", "contents": "gamepad_is_connected(${1:slotNumber})$0" },
+		{"trigger": "gamepad_is_supported\tboolean", "contents": "gamepad_is_supported()$0" },
+		{"trigger": "gamepad_get_device_count\tinteger", "contents": "gamepad_get_device_count(${1:slotNumber})$0" },
+		{"trigger": "gamepad_get_description\tstring", "contents": "gamepad_get_description(${1:slotNumber})$0" },
+		{"trigger": "gamepad_axis_count\tinteger", "contents": "gamepad_axis_count(${1:slotNumber})$0" },
+		{"trigger": "gamepad_button_count\tinteger", "contents": "gamepad_button_count(${1:slotNumber})$0" }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+	"scope": "source.gml",
+	"completions": [
+
+
+	{"trigger": "ansi_char\traw char", "contents": "ansi_char(${1:byte})$0" },
+	{"trigger": "chr\tchar", "contents": "chr(${1:UnicodeNumber})$0"}
+	{"trigger": "ord\tinteger", "contents": "ord(${1:char})$0" },
+	{"trigger": "real\treal", "contents": "real(${1:string})$0" },
+	{"trigger": "string\tstring", "contents": "string(${1:value})$0" },
+
+
+
+	{"trigger": "string_length\tinteger", "contents": "string_length(${1:string})$0" },
+	{"trigger": "string_byte_length\tinteger", "contents": "string_byte_length(${1:string})$0" },
+	{"trigger": "string_char_at\tstring", "contents": "string_char_at(${1:string},${1:index})$0" },
+	{"trigger": "string_byte_at\tbyte", "contents": "string_byte_at(${1:string},${1:index})$0" },
+
+	{"trigger": "string_pos\tinteger", "contents": "string_pos(${1:substring},${2:string})$0" },
+	{"trigger": "string_count\tinteger", "contents": "string_count(${1:substring},${2:string})$0" },
+	{"trigger": "string_insert\tstring", "contents": "string_insert(${1:substring},${2:string},${2:index})$0" },
+
+	{"trigger": "string_replace\tstring", "contents": "string_replace(${1:string},${2:substring},${3:replacement})$0" },
+	{"trigger": "string_replace_all\tstring", "contents": "string_replace_all(${1:string},${2:substring},${3:replacement})$0" },
+	{"trigger": "string_set_byte_at\tstring", "contents": "string_set_byte_at(${1:string},${2:index},${3:replacement})$0" },
+
+	{"trigger": "string_copy\tstring", "contents": "string_copy(${1:string},${1:index},${2:count})$0" },
+	{"trigger": "string_delete\tstring", "contents": "string_delete(${1:string},${1:index},${2:count})$0" },
+
+	{"trigger": "string_lower\tstring", "contents": "string_lower(${1:string})$0" },
+	{"trigger": "string_upper\tstring", "contents": "string_upper(${1:string})$0" },
+	{"trigger": "string_letters\tstring", "contents": "string_letters(${1:string})$0" },
+	{"trigger": "string_digits\tstring", "contents": "string_digits(${1:string})$0" },
+	{"trigger": "string_lettersdigits\tstring", "contents": "string_lettersdigits(${1:string})$0" },
+
+	{"trigger": "string_format\tstring", "contents": "string_format(${1:number},${2:totalWidth},${3:numberOfDecimals})$0" },
+	{"trigger": "string_repeat\tstring", "contents": "string_repeat(${1:string},${2:number})$0" },
+
+	{"trigger": "string_width\treal", "contents": "string_width(${1:string})$0" },
+	{"trigger": "string_width_ext\treal", "contents": "string_width_ext(${1:string},${2:spacingHeight},${3:maxWidth})$0" },
+	{"trigger": "string_height\treal", "contents": "string_height(${1:string})$0" },
+	{"trigger": "string_height_ext\treal", "contents": "string_height_ext(${1:string},${2:spacingHeight},${3:maxWidth})$0" },
+
+
+
+	{"trigger": "clipboard_get_text\tstring", "contents": "clipboard_get_text()$0" },
+	{"trigger": "clipboard_set_text\tvoid", "contents": "clipboard_set_text(${1:string})$0" },
+	{"trigger": "clipboard_has_text\tboolean", "contents": "clipboard_has_text()$0" },
+
+	]
+
+}

@@ -1,0 +1,72 @@
+{
+    "scope": "source.gml",
+    "completions": [
+    
+		{"trigger": "timezone_local\tconstant", "contents": "timezone_local$0"},
+		{"trigger": "timezone_utc\tconstant", "contents": "timezone_utc$0"},
+
+		{"trigger": "current_time\tglobal real", "contents": "current_time$0"},
+		{"trigger": "current_second\tglobal integer", "contents": "current_second$0"},
+		{"trigger": "current_minute\tglobal integer", "contents": "current_minute$0"},
+		{"trigger": "current_hour\tglobal integer", "contents": "current_hour$0"},
+		{"trigger": "current_day\tglobal integer", "contents": "current_day$0"},
+		{"trigger": "current_weekday\tglobal integer", "contents": "current_weekday$0"},
+		{"trigger": "current_month\tglobal integer", "contents": "current_month$0"},
+		{"trigger": "current_year\tglobal integer", "contents": "current_year$0"},
+		{"trigger": "delta_time\tglobal real", "contents": "delta_time$0"},
+
+		{"trigger": "date_get_timezone\tconstant timezone", "contents": "date_get_timezone()$0" },
+		{"trigger": "date_set_timezone\void", "contents": "date_set_timezone(${1:timezone})$0" },
+
+		{"trigger": "get_timer\treal", "contents": "get_timer()$0" },
+		{"trigger": "date_current_datetime\tdatetime", "contents": "date_current_datetime()$0" },
+
+		{"trigger": "date_create_datetime\tdatetime", "contents": "date_create_datetime(${1:year},${1:month},${2:day},${3:hour},${4:minute},${5:second})$0" },
+
+		{"trigger": "date_is_today\tboolean", "contents": "date_is_today(${1:datetime})$0" },
+		{"trigger": "date_leap_year\tboolean", "contents": "date_leap_year(${1:datetime})$0" },
+		{"trigger": "date_compare_date\tinteger", "contents": "date_compare_date(${1:datetime1},${1:datetime2})$0" },
+		{"trigger": "date_compare_datetime\tinteger", "contents": "date_compare_datetime(${1:datetime1},${1:datetime2})$0" },
+		{"trigger": "date_compare_time\tinteger", "contents": "date_compare_time(${1:datetime1},${1:datetime2})$0" },
+		{"trigger": "date_valid_datetime\tboolean", "contents": "date_valid_datetime(${1:datetime})$0" },
+
+		{"trigger": "date_second_span\tinteger", "contents": "date_second_span((${1:datetime1},${2:datetime2})$0" },
+		{"trigger": "date_minute_span\treal", "contents": "date_minute_span(${1:datetime1},${2:datetime2})$0" },
+		{"trigger": "date_hour_span\treal", "contents": "date_hour_span(${1:datetime1},${2:datetime2})$0" },
+		{"trigger": "date_day_span\treal", "contents": "date_day_span(${1:datetime1},${1:datetime2})$0" },
+		{"trigger": "date_week_span\treal", "contents": "date_week_span(${1:datetime1},${2:datetime2})$0" },
+		{"trigger": "date_month_span\treal", "contents": "date_month_span(${1:datetime1},${2:datetime2})$0" },
+		{"trigger": "date_year_span\treal", "contents": "date_year_span(${1:datetime1},${2:datetime2})$0" },
+
+		{"trigger": "date_get_second\tinteger", "contents": "date_get_second(${1:datetime})$0" },
+		{"trigger": "date_get_minute\tinteger", "contents": "date_get_minute(${1:datetime})$0" },
+		{"trigger": "date_get_hour\tinteger", "contents": "date_get_hour(${1:datetime})$0" },
+		{"trigger": "date_get_day\tinteger", "contents": "date_get_day(${1:datetime})$0" },
+		{"trigger": "date_get_weekday\tinteger", "contents": "date_get_weekday(${1:datetime})$0" },
+		{"trigger": "date_get_week\tinteger", "contents": "date_get_week(${1:datetime})$0" },
+		{"trigger": "date_get_month\tinteger", "contents": "date_get_month(${1:datetime})$0" },
+		{"trigger": "date_get_year\tinteger", "contents": "date_get_year(${1:datetime})$0" },
+
+		{"trigger": "date_days_in_month\tinteger", "contents": "date_days_in_month(${1:datetime})$0" },
+		{"trigger": "date_days_in_year\tinteger", "contents": "date_days_in_year(${1:datetime})$0" },
+		{"trigger": "date_get_second_of_year\tinteger", "contents": "date_get_second_of_year(${1:datetime})$0" },
+		{"trigger": "date_get_minute_of_year\tinteger", "contents": "date_get_minute_of_year(${1:datetime})$0" },
+		{"trigger": "date_get_hour_of_year\tinteger", "contents": "date_get_hour_of_year(${1:datetime})$0" },
+		{"trigger": "date_get_day_of_year\tinteger", "contents": "date_get_day_of_year(${1:datetime})$0" },
+
+		{"trigger": "date_inc_second\tdatetime", "contents": "date_inc_second(${1:datetime},${2:ammount})$0" },
+		{"trigger": "date_inc_minute\tdatetime", "contents": "date_inc_minute(${1:datetime},${2:ammount})$0" },
+		{"trigger": "date_inc_hour\tdatetime", "contents": "date_inc_hour(${1:datetime},${2:ammount})$0" },
+		{"trigger": "date_inc_day\tdatetime", "contents": "date_inc_day(${1:datetime},${2:ammount})$0" },
+		{"trigger": "date_inc_week\tdatetime", "contents": "date_inc_week(${1:datetime},${2:ammount})$0" },
+		{"trigger": "date_inc_month\tdatetime", "contents": "date_inc_month(${1:datetime},${2:ammount})$0" },
+		{"trigger": "date_inc_year\tdatetime", "contents": "date_inc_year(${1:datetime},${2:ammount})$0" },
+
+		{"trigger": "date_time_string\tstring", "contents": "date_time_string(${1:datetime})$0" },
+		{"trigger": "date_date_string\tstring", "contents": "date_date_string(${1:datetime})$0" },
+		{"trigger": "date_datetime_string\tstring", "contents": "date_datetime_string(${1:datetime})$0" },
+
+		{"trigger": "date_date_of\treal?", "contents": "date_date_of(${1:datetime})$0" },
+		{"trigger": "date_time_of\treal?", "contents": "date_time_of(${1:datetime})$0" },
+    ]
+}

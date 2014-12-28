@@ -1,0 +1,51 @@
+{
+    "scope": "source.gml",
+    "completions": [
+
+
+{"comment": "==== Joysticks ===="},
+	{"comment": "May not work as intended on new windows machines"},
+	{"trigger": "ev_joystick1_button1\tOBSOLETE", "contents": "ev_joystick1_button1"},
+	{"trigger": "ev_joystick1_button2\tOBSOLETE", "contents": "ev_joystick1_button2"},
+	{"trigger": "ev_joystick1_button3\tOBSOLETE", "contents": "ev_joystick1_button3"},
+	{"trigger": "ev_joystick1_button4\tOBSOLETE", "contents": "ev_joystick1_button4"},
+	{"trigger": "ev_joystick1_button5\tOBSOLETE", "contents": "ev_joystick1_button5"},
+	{"trigger": "ev_joystick1_button6\tOBSOLETE", "contents": "ev_joystick1_button6"},
+	{"trigger": "ev_joystick1_button7\tOBSOLETE", "contents": "ev_joystick1_button7"},
+	{"trigger": "ev_joystick1_button8\tOBSOLETE", "contents": "ev_joystick1_button8"},
+	{"trigger": "ev_joystick1_down\tOBSOLETE", "contents": "ev_joystick1_down"},
+	{"trigger": "ev_joystick1_left\tOBSOLETE", "contents": "ev_joystick1_left"},
+	{"trigger": "ev_joystick1_right\tOBSOLETE", "contents": "ev_joystick1_right"},
+	{"trigger": "ev_joystick1_up\tOBSOLETE", "contents": "ev_joystick1_up"},
+	{"trigger": "ev_joystick2_button1\tOBSOLETE", "contents": "ev_joystick2_button1"},
+	{"trigger": "ev_joystick2_button2\tOBSOLETE", "contents": "ev_joystick2_button2"},
+	{"trigger": "ev_joystick2_button3\tOBSOLETE", "contents": "ev_joystick2_button3"},
+	{"trigger": "ev_joystick2_button4\tOBSOLETE", "contents": "ev_joystick2_button4"},
+	{"trigger": "ev_joystick2_button5\tOBSOLETE", "contents": "ev_joystick2_button5"},
+	{"trigger": "ev_joystick2_button6\tOBSOLETE", "contents": "ev_joystick2_button6"},
+	{"trigger": "ev_joystick2_button7\tOBSOLETE", "contents": "ev_joystick2_button7"},
+	{"trigger": "ev_joystick2_button8\tOBSOLETE", "contents": "ev_joystick2_button8"},
+	{"trigger": "ev_joystick2_down\tOBSOLETE", "contents": "ev_joystick2_down"},
+	{"trigger": "ev_joystick2_left\tOBSOLETE", "contents": "ev_joystick2_left"},
+	{"trigger": "ev_joystick2_right\tOBSOLETE", "contents": "ev_joystick2_right"},
+	{"trigger": "ev_joystick2_up\tOBSOLETE", "contents": "ev_joystick2_up"},
+
+	{"trigger": "joystick_axes\tOBSOLETE", "contents": "joystick_axes()$0" },
+	{"trigger": "joystick_buttons\tOBSOLETE", "contents": "joystick_buttons()$0" },
+	{"trigger": "joystick_check_button\tOBSOLETE", "contents": "joystick_check_button()$0" },
+	{"trigger": "joystick_direction\tOBSOLETE", "contents": "joystick_direction()$0" },
+	{"trigger": "joystick_exists\tOBSOLETE", "contents": "joystick_exists()$0" },
+	{"trigger": "joystick_has_pov\tOBSOLETE", "contents": "joystick_has_pov()$0" },
+	{"trigger": "joystick_name\tOBSOLETE", "contents": "joystick_name()$0" },
+	{"trigger": "joystick_pov\tOBSOLETE", "contents": "joystick_pov()$0" },
+	{"trigger": "joystick_rpos\tOBSOLETE", "contents": "joystick_rpos()$0" },
+	{"trigger": "joystick_upos\tOBSOLETE", "contents": "joystick_upos()$0" },
+	{"trigger": "joystick_vpos\tOBSOLETE", "contents": "joystick_vpos()$0" },
+	{"trigger": "joystick_xpos\tOBSOLETE", "contents": "joystick_xpos()$0" },
+	{"trigger": "joystick_ypos\tOBSOLETE", "contents": "joystick_ypos()$0" },
+	{"trigger": "joystick_zpos\tOBSOLETE", "contents": "joystick_zpos()$0" },
+
+
+
+    ]
+}

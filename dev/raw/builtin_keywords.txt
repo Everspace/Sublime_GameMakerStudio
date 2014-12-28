@@ -1,0 +1,9 @@
+//Actually constants, but special
+all
+global
+false
+local
+noone
+other
+self
+true

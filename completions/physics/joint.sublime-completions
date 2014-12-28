@@ -1,0 +1,71 @@
+{
+    "scope": "source.gml",
+    "completions": [
+
+{"comment": "**** Constants ****"},
+
+	    {"comment": "==== General ===="},
+		{"trigger": "phy_joint_anchor_1_x\tconstant", "contents": "phy_joint_anchor_1_x", "comment": "read only"},
+		{"trigger": "phy_joint_anchor_1_y\tconstant", "contents": "phy_joint_anchor_1_y", "comment": "read only"},
+		{"trigger": "phy_joint_anchor_2_x\tconstant", "contents": "phy_joint_anchor_2_x", "comment": "read only"},
+		{"trigger": "phy_joint_anchor_2_y\tconstant", "contents": "phy_joint_anchor_2_y", "comment": "read only"},
+		{"trigger": "phy_joint_reaction_force_x\tconstant", "contents": "phy_joint_reaction_force_x", "comment": "read only"},
+		{"trigger": "phy_joint_reaction_force_y\tconstant", "contents": "phy_joint_reaction_force_y", "comment": "read only"},
+		{"trigger": "phy_joint_reaction_torque\tconstant", "contents": "phy_joint_reaction_torque", "comment": "read only"},
+
+	    {"comment": "==== Motors ===="},
+		{"trigger": "phy_joint_max_motor_force\tconstant", "contents": "phy_joint_max_motor_force"},
+		{"trigger": "phy_joint_max_motor_torque\tconstant", "contents": "phy_joint_max_motor_torque"},
+		{"trigger": "phy_joint_motor_force\tconstant", "contents": "phy_joint_motor_force", "comment": "read only"},
+		{"trigger": "phy_joint_motor_speed\tconstant", "contents": "phy_joint_motor_speed"},
+		{"trigger": "phy_joint_motor_torque\tconstant", "contents": "phy_joint_motor_torque", "comment": "read only"},
+
+	    {"comment": "==== Revolute Joints ===="},
+		{"trigger": "phy_joint_angle\tconstant", "contents": "phy_joint_angle", "comment": "read only"},
+		{"trigger": "phy_joint_angle_limits\tconstant", "contents": "phy_joint_angle_limits"},
+		{"trigger": "phy_joint_upper_angle_limit\tconstant", "contents": "phy_joint_upper_angle_limit"},
+		{"trigger": "phy_joint_lower_angle_limit\tconstant", "contents": "phy_joint_lower_angle_limit"},
+
+	    {"comment": "==== Prismatic Joints ===="},
+		{"trigger": "phy_joint_translation\tconstant", "contents": "phy_joint_translation", "comment": "read only"},
+		{"trigger": "phy_joint_speed\tconstant", "contents": "phy_joint_speed", "comment": "read only"},
+
+	    {"comment": "==== Pully Joints ===="},
+		{"trigger": "phy_joint_length_1\tconstant", "contents": "phy_joint_length_1"},
+		{"trigger": "phy_joint_length_2\tconstant", "contents": "phy_joint_length_2", "comment": "read only"},
+
+	    {"comment": "==== Distance, Weld, and Wheel Joints ===="},
+		{"trigger": "phy_joint_damping_ratio\tconstant", "contents": "phy_joint_damping_ratio"},
+		{"trigger": "phy_joint_frequency\tconstant", "contents": "phy_joint_frequency"},
+
+	    {"comment": "==== Friction Joints ===="},
+		{"trigger": "phy_joint_max_force\tconstant", "contents": "phy_joint_max_force"},
+		{"trigger": "phy_joint_max_torque\tconstant", "contents": "phy_joint_max_torque"},
+
+	    {"comment": "==== Rope Joints ===="},
+		{"trigger": "phy_joint_max_length\tconstant", "contents": "phy_joint_max_length"},
+
+{"comment": "**** Functions ****"},
+
+		{"comment": "==== Toggle ===="},
+		{"trigger": "physics_joint_enable_motor\tvoid", "contents": "physics_joint_enable_motor(${1:jointID},${2:enableMotor})$0" },
+
+		{"comment": "==== Get/Set ===="}
+		{"trigger": "physics_joint_get_value\tjointID", "contents": "physics_joint_get_value(${1:jointID},${2:jointPropertyConstant})$0" },
+		{"trigger": "physics_joint_set_value\tvoid", "contents": "physics_joint_set_value(${1:jointID},${2:jointPropertyConstant},${3:value})$0" },
+
+		{"comment": "==== Creation ===="},
+		{"trigger": "physics_joint_distance_create\tjointID", "contents": "physics_joint_distance_create(${1:firstInstance},${2:secondInstance},${3:anchor1_worldX},${4:anchor1_worldY},${5:anchor2_worldX},${6:anchor2_worldY},${7:canInstancesCollide?})$0"},
+		{"trigger": "physics_joint_friction_create\tjointID", "contents": "physics_joint_friction_create(${1:firstInstance},${2:secondInstance},${3:worldX},${4:worldY},${5:maxForce},${6:maxTorque},${7:canInstancesCollide})$0" },
+		{"trigger": "physics_joint_gear_create\tjointID", 	"contents": "physics_joint_gear_create(${1:firstInstance},${2:secondInstance},${3:revoluteJoint},${4:revoluteOrPrismaticJoint},${5:velocityJoint})$0" },
+		{"trigger": "physics_joint_prismatic_create\tjointID", "contents": "physics_joint_prismatic_create(${1:firstInstance},${2:secondInstance},${3:anchor_worldX},${4:anchor_worldY},${5:axis_vectorX},${6:axis_vectorY},${7:lower_translation_limit},${8:upper_translation_limit},${9:maxMotorSpeed},${10:motorSpeed},${11:enableMotor},${12:canInstancesCollide})$0" },
+		{"trigger": "physics_joint_pulley_create\tjointID", "contents": "physics_joint_pulley_create(${1:firstInstance},${2:secondInstance},${3:anchor1_worldX},${4:anchor1_worldY},${5:anchor2_worldY},${6:anchor2_worldX},${7:firstInstance_anchor_relativeX},${8:firstInstance_anchor_relativeY},${9:secondInstance_anchor_relativeX},${10:secondInstance_anchor_relativeY},${11:velocityRatio},${12:canInstancesCollide})$0" },
+		{"trigger": "physics_joint_revolute_create\tjointID", "contents": "physics_joint_revolute_create(${1:firstInstance},${2:secondInstance},${3:anchor_worldX},${4:anchor_worldY},${5:minAngleLimit},${6:maxAngleLimit},${7:allowLimiting},${8:maxMotorTorque},${9:motorSpeed},${10:canInstancesCollide})$0" },
+		{"trigger": "physics_joint_rope_create\tjointID", "contents": "physics_joint_rope_create(${1:firstInstance},${2:secondInstance},${3:anchor1_worldX},${4:anchor1_worldY},${5:anchor2_worldX},${6:anchor2_worldY},${7:maxLength},${8:canInstancesCollide})$0" },
+		{"trigger": "physics_joint_weld_create\tjointID", "contents": "physics_joint_weld_create(${1:firstInstance},${2:secondInstance},${3:anchor_worldX},${4:anchor_worldY},${5:angle},${6:oscillationFrequency_hertz},${7:dampingRatio},${8:canInstancesCollide})$0" },
+		{"trigger": "physics_joint_wheel_create\tjointID", "contents": "physics_joint_wheel_create(${1:firstInstance},${2:secondInstance},${3:anchor_worldX},${4:anchor_worldY},${5:axis_vectorX},${6:axis_vectorY},${7:maxMotorTorque},${8:motorSpeed},${9:oscillationFrequency_hertz},${10:dampingRatio},${11:canInstancesCollide})$0" },
+
+		{"comment": "==== Deletion ===="},
+		{"trigger": "physics_joint_delete\tvoid", "contents": "physics_joint_delete(${1:jointID})$0" }
+    ]
+}
