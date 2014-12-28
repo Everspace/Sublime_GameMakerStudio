@@ -1,0 +1,31 @@
+{
+    "scope": "source.gml",
+    "completions": [
+{"comment": "**** Functions ****"},
+	{"comment": "==== Create/Destroy ===="},
+		{"trigger": "ds_priority_create\tpriorityqID", "contents": "ds_priority_create()$0" },
+		{"trigger": "ds_priority_destroy\tvoid", "contents": "ds_priority_destroy(${1:priorityQueueID})$0" },
+
+	{"comment": "==== DS Info ===="},
+		{"trigger": "ds_priority_size\tinteger", "contents": "ds_priority_size(${1:priorityQueueID})$0" },
+		{"trigger": "ds_priority_empty\tboolean", "contents": "ds_priority_empty(${1:priorityQueueID})$0" },
+		{"trigger": "ds_priority_find_max\tvalue, "contents": "ds_priority_find_max(${1:priorityQueueID})$0" },
+		{"trigger": "ds_priority_find_min\tvalue", "contents": "ds_priority_find_min(${1:priorityQueueID})$0" },
+
+	{"comment": "==== Add or remove ===="},	
+		{"trigger": "ds_priority_add\tvoid", "contents": "ds_priority_add(${1:priorityQueueID},${2:value},${3:priority})$0" },
+		{"trigger": "ds_priority_delete_max\tvalue", "contents": "ds_priority_delete_max(${1:priorityQueueID})$0" },
+		{"trigger": "ds_priority_delete_min\tvalue", "contents": "ds_priority_delete_min(${1:priorityQueueID})$0" },
+		{"trigger": "ds_priority_delete_value\tvoid", "contents": "ds_priority_delete_value(${1:priorityQueueID},${2:value})$0" },
+		{"trigger": "ds_priority_copy\tvoid", "contents": "ds_priority_copy(${1:priorityQueueIDto},${2:priorityQueueIDfrom})$0" },
+		{"trigger": "ds_priority_clear\tvoid", "contents": "ds_priority_clear(${1:priorityQueueID})$0" },
+
+	{"comment": "==== I/O ===="},
+		{"trigger": "ds_priority_read\tvoid", "contents": "ds_priority_read(${1:priorityQueueID},${2:input})$0" },
+		{"trigger": "ds_priority_write\tstring", "contents": "ds_priority_write(${1:priorityQueueID})$0" },
+
+	{"comment": "==== Ordering ===="},
+		{"trigger": "ds_priority_change_priority\tvoid", "contents": "ds_priority_change_priority(${1:priorityQueueID},${2:value},${3:priority})$0" },
+		{"trigger": "ds_priority_find_priority\treal||undefined", "contents": "ds_priority_find_priority(${1:priorityQueueID},${2:value})$0" },
+    ]
+}

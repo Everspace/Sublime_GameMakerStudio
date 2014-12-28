@@ -92,11 +92,11 @@ All functions known to GM:S are *autocompleteable*. When a section in the docume
 
 ##### Advanced Functions
 - [ ] Data Structures
-  - [ ] Stacks
+  - [x] ~~Stacks~~
   - [ ] Queues
-  - [ ] Lists
+  - [x] ~~Lists~~
   - [ ] Maps
-  - [ ] Priority Queues
+  - [x] ~~Priority Queues~~
   - [ ] Grids
 - [ ] Particles
   - [ ] Simple Effects

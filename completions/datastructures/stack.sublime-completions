@@ -1,0 +1,25 @@
+{
+    "scope": "source.gml",
+    "completions": [
+
+{"comment": "**** Functions ****"},
+	{"comment": "==== Create/Destroy ===="},
+		{"trigger": "ds_stack_create\tstackID", "contents": "ds_stack_create()$0" },
+		{"trigger": "ds_stack_destroy\tvoid", "contents": "ds_stack_destroy(${1:stackID})$0" },
+
+	{"comment": "==== DS Info ===="},
+		{"trigger": "ds_stack_size\tinteger", "contents": "ds_stack_size(${1:stackID})$0" },
+		{"trigger": "ds_stack_top\tvalue", "contents": "ds_stack_top(${1:stackID})$0" },
+		{"trigger": "ds_stack_empty\tboolean", "contents": "ds_stack_empty(${1:stackID})$0" },
+
+	{"comment": "==== Add or remove ===="},	
+		{"trigger": "ds_stack_pop\tvalue", "contents": "ds_stack_pop(${1:stackID})$0" },
+		{"trigger": "ds_stack_push\tvoid", "contents": "ds_stack_push(${1:stackID}, ${2:values...})$0" },
+		{"trigger": "ds_stack_copy\tvoid", "contents": "ds_stack_copy(${1:stackIDto},${2:stackIDFrom})$0" },
+		{"trigger": "ds_stack_clear\tvoid", "contents": "ds_stack_clear(${1:stackID})$0" },
+
+	{"comment": "==== I/O ===="},
+		{"trigger": "ds_stack_read\tvoid", "contents": "ds_stack_read(${1:stackID},${2:inputString})$0", "comment": "Also contains a *legacy* optional"},
+		{"trigger": "ds_stack_write\tstring", "contents": "ds_stack_write(${1:stackID})$0" },
+    ]
+}

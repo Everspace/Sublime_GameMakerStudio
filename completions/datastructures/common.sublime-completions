@@ -1,0 +1,17 @@
+{
+    "scope": "source.gml",
+    "completions": [
+    
+{"comment": "**** Constants ****"},
+		{"trigger": "ds_type_grid\tconstant", "contents": "ds_type_grid"},
+		{"trigger": "ds_type_list\tconstant", "contents": "ds_type_list"},
+		{"trigger": "ds_type_map\tconstant", "contents": "ds_type_map"},
+		{"trigger": "ds_type_priority\tconstant", "contents": "ds_type_priority"},
+		{"trigger": "ds_type_queue\tconstant", "contents": "ds_type_queue"},
+		{"trigger": "ds_type_stack\tconstant", "contents": "ds_type_stack"},
+		
+{"comment": "**** Functions ****"},
+		{"trigger": "ds_exists\tboolean", "contents": "ds_exists(${1:ID},${2:ds_type_constant})$0" },
+		{"trigger": "ds_set_precision\tvoid", "contents": "ds_set_precision(${1:precisionValue})$0" },
+    ]
+}
