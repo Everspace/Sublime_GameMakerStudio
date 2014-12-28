@@ -14,7 +14,7 @@ Game Maker Studio auto-complete and syntax highlighting for SublimeText.
 
 The `.sublime-completions` are organized in a manner roughly corresponding to the [Game Maker Documentation Reference](http://docs.yoyogames.com/source/dadiospice/002_reference/index.html).
 
-#### Definitly Todo
+#### Definitely Todo
 
 - [ ] More snippets
   - [ ] All flow control
