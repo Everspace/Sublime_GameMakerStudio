@@ -26,14 +26,6 @@ patterns:
   end: \*/
   begin: /\*
 
-- comment: Character operators
-  match: \[|\]|\?|\-|\+|\||=|\[\#|\[@|%|\^|&|\*|!|<|>|:|/
-  name: keyword.operator.character.gml
-
-- comment: Word operators
-  match: \b(and|or|xor|not)\b
-  name: keyword.operator.word.gml
-
 - comment: Match singlequote
   name: string.quoted.single.gml
   begin: \'
@@ -48,25 +40,37 @@ patterns:
   name: variable.parameter.gml
   match: \b(argument_relitive|argument_count|argument9|argument8|argument7|argument6|argument5|argument4|argument3|argument2|argument15|argument14|argument13|argument12|argument11|argument10|argument1|argument0|argument)\b
 
+- comment: Octals
+  match: \b(0[0-9]+)\b
+  name: constant.numeric.octal.gml
+
+- comment: Hex
+  match: \b(0x[0-9]*)\b
+  name: constant.numeric.hex.gml
+
+- comment: Real
+  match: \b([0-9]+[.][0-9]+)\b
+  name: constant.numeric.real.gml
+
+- comment: Ints
+  match: \b([0-9]+)\b
+  name: constant.numeric.gml
+
 - comment: Flow Control
   match: \b(if|else|switch|case|default|break|for|repeat|while|do|until|continue|exit|return|with)\b
   name: keyword.control.gml
 
+- comment: Character operators
+  match: \[\#|\[\?|\[@|\[|\]|\-|\+|\||=|%|\^|&|\*|!|<|>|:|/
+  name: keyword.operator.character.gml
+
+- comment: Word operators
+  match: \b(and|or|xor|not)\b
+  name: keyword.operator.word.gml
+
 - comment: Comma and the like
   match: ;|,|\(|\)|\{|\}|\.
   name: keyword.other.gml
-
-- comment: Numbers
-  match: \b(0[0-9]+)\b
-  name: constant.numeric.octal.gml
-
-- comment: Numbers
-  match: \b(0x[0-9]*)\b
-  name: constant.numeric.hex.gml
-
-- comment: Numbers
-  match: \b([0-9]+)\b
-  name: constant.numeric.gml
 
 - comment: Keyword constants
   match: \b(all|noone|true|false|undefined)\b

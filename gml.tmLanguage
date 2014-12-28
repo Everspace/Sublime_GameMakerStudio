@@ -58,22 +58,6 @@
 			<string>comment.block.gml</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>Character operators</string>
-			<key>match</key>
-			<string>\[|\]|\?|\-|\+|\||=|\[\#|\[@|%|\^|&amp;|\*|!|&lt;|&gt;|:|/</string>
-			<key>name</key>
-			<string>keyword.operator.character.gml</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Word operators</string>
-			<key>match</key>
-			<string>\b(and|or|xor|not)\b</string>
-			<key>name</key>
-			<string>keyword.operator.word.gml</string>
-		</dict>
-		<dict>
 			<key>begin</key>
 			<string>\'</string>
 			<key>comment</key>
@@ -103,6 +87,38 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Octals</string>
+			<key>match</key>
+			<string>\b(0[0-9]+)\b</string>
+			<key>name</key>
+			<string>constant.numeric.octal.gml</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Hex</string>
+			<key>match</key>
+			<string>\b(0x[0-9]*)\b</string>
+			<key>name</key>
+			<string>constant.numeric.hex.gml</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Real</string>
+			<key>match</key>
+			<string>\b([0-9]+[.][0-9]+)\b</string>
+			<key>name</key>
+			<string>constant.numeric.real.gml</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Ints</string>
+			<key>match</key>
+			<string>\b([0-9]+)\b</string>
+			<key>name</key>
+			<string>constant.numeric.gml</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Flow Control</string>
 			<key>match</key>
 			<string>\b(if|else|switch|case|default|break|for|repeat|while|do|until|continue|exit|return|with)\b</string>
@@ -111,35 +127,27 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Character operators</string>
+			<key>match</key>
+			<string>\[\#|\[\?|\[@|\[|\]|\-|\+|\||=|%|\^|&amp;|\*|!|&lt;|&gt;|:|/</string>
+			<key>name</key>
+			<string>keyword.operator.character.gml</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Word operators</string>
+			<key>match</key>
+			<string>\b(and|or|xor|not)\b</string>
+			<key>name</key>
+			<string>keyword.operator.word.gml</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Comma and the like</string>
 			<key>match</key>
 			<string>;|,|\(|\)|\{|\}|\.</string>
 			<key>name</key>
 			<string>keyword.other.gml</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Numbers</string>
-			<key>match</key>
-			<string>\b(0[0-9]+)\b</string>
-			<key>name</key>
-			<string>constant.numeric.octal.gml</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Numbers</string>
-			<key>match</key>
-			<string>\b(0x[0-9]*)\b</string>
-			<key>name</key>
-			<string>constant.numeric.hex.gml</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Numbers</string>
-			<key>match</key>
-			<string>\b([0-9]+)\b</string>
-			<key>name</key>
-			<string>constant.numeric.gml</string>
 		</dict>
 		<dict>
 			<key>comment</key>
