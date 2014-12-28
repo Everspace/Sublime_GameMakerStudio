@@ -1,18 +1,18 @@
 {
 	"scope": "source.gml",
 	"completions": [
-		{"trigger": "lives\TGLOBAL REAL", "contents": "lives"}
-		{"trigger": "global\TGLOBAL INSTANCE", "contents": "global"},
+		{"trigger": "lives\tGLOBAL REAL", "contents": "lives"}
+		{"trigger": "global\tGLOBAL INSTANCE", "contents": "global"},
 
-		{"trigger": "all\TCONSTANT KEYWORD", "contents": "all"},
-		{"trigger": "false\TCONSTANT KEYWORD", "contents": "false"},
-		{"trigger": "noone\TCONSTANT KEYWORD", "contents": "noone"},
-		{"trigger": "true\TCONSTANT KEYWORD", "contents": "true"},
-		{"trigger": "undefined\TCONSTANT KEYWORD", "contents": "undefined"},
+		{"trigger": "all\tCONSTANT KEYWORD", "contents": "all"},
+		{"trigger": "false\tCONSTANT KEYWORD", "contents": "false"},
+		{"trigger": "noone\tCONSTANT KEYWORD", "contents": "noone"},
+		{"trigger": "true\tCONSTANT KEYWORD", "contents": "true"},
+		{"trigger": "undefined\tCONSTANT KEYWORD", "contents": "undefined"},
 
-		{"trigger": "local\TVARIABLE SPECIAL", "contents": "local"},
-		{"trigger": "other\TVARIABLE SPECIAL", "contents": "other"},
-		{"trigger": "self\TVARIABLE SPECIAL", "contents": "self"},
+		{"trigger": "local\tVARIABLE SPECIAL", "contents": "local"},
+		{"trigger": "other\tVARIABLE SPECIAL", "contents": "other"},
+		{"trigger": "self\tVARIABLE SPECIAL", "contents": "self"},
 
 	]
 }
