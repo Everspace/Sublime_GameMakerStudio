@@ -2,37 +2,32 @@
     "scope": "source.gml",
     "completions": [
 {"comment": "**** Variables ****"},
-{ "triggers": "sprite_index\tlocal spriteID", "contents": "sprite_index" }
-{ "triggers": "sprite_width\tlocal real", "contents": "sprite_width" }
-{ "triggers": "sprite_height\tlocal real", "contents": "sprite_height" }
-{ "triggers": "sprite_xoffset\tlocal real", "contents": "sprite_xoffset" }
-{ "triggers": "sprite_yoffset\tlocal real", "contents": "sprite_yoffset" }
-{ "triggers": "image_alpha\tlocal real", "contents": "image_alpha" }
-{ "triggers": "image_angle\tlocal real", "contents": "image_angle" }
-{ "triggers": "image_blend\tlocal colour", "contents": "image_blend" }
-{ "triggers": "image_index\tlocal real", "contents": "image_index" }
-{ "triggers": "image_number\tlocal real", "contents": "image_number" }
-{ "triggers": "image_speed\tlocal real", "contents": "image_speed" }
-{ "triggers": "image_xscale\tlocal real", "contents": "image_xscale" }
-{ "triggers": "image_yscale\tlocal real", "contents": "image_yscale" }
+	{ "triggers": "sprite_index\tlocal spriteID", "contents": "sprite_index" }
+	{ "triggers": "sprite_width\tlocal real", "contents": "sprite_width" }
+	{ "triggers": "sprite_height\tlocal real", "contents": "sprite_height" }
+	{ "triggers": "sprite_xoffset\tlocal real", "contents": "sprite_xoffset" }
+	{ "triggers": "sprite_yoffset\tlocal real", "contents": "sprite_yoffset" }
+	{ "triggers": "image_alpha\tlocal real", "contents": "image_alpha" }
+	{ "triggers": "image_angle\tlocal real", "contents": "image_angle" }
+	{ "triggers": "image_blend\tlocal colour", "contents": "image_blend" }
+	{ "triggers": "image_index\tlocal real", "contents": "image_index" }
+	{ "triggers": "image_number\tlocal real", "contents": "image_number" }
+	{ "triggers": "image_speed\tlocal real", "contents": "image_speed" }
+	{ "triggers": "image_xscale\tlocal real", "contents": "image_xscale" }
+	{ "triggers": "image_yscale\tlocal real", "contents": "image_yscale" }
     
-{"comment": "**** Constants ****"},
-	{"comment": "==== Subgroup ===="},
-
 {"comment": "**** Functions ****"},
-{"trigger": "draw_self\tvoid", "contents": "draw_self($1)$0" },
-{"trigger": "draw_sprite\tvoid", "contents": "draw_sprite($1)$0" },
-{"trigger": "draw_sprite_ext\tvoid", "contents": "draw_sprite_ext($1)$0" },
-{"trigger": "draw_sprite_general\tvoid", "contents": "draw_sprite_general($1)$0" },
-{"trigger": "draw_sprite_part\tvoid", "contents": "draw_sprite_part($1)$0" },
-{"trigger": "draw_sprite_part_ext\tvoid", "contents": "draw_sprite_part_ext($1)$0" },
-{"trigger": "draw_sprite_pos\tvoid", "contents": "draw_sprite_pos($1)$0" },
-{"trigger": "draw_sprite_stretched\tvoid", "contents": "draw_sprite_stretched($1)$0" },
-{"trigger": "draw_sprite_stretched_ext\tvoid", "contents": "draw_sprite_stretched_ext($1)$0" },
-{"trigger": "draw_sprite_tiled\tvoid", "contents": "draw_sprite_tiled($1)$0" },
-{"trigger": "draw_sprite_tiled_ext\tvoid", "contents": "draw_sprite_tiled_ext($1)$0" },
-
-{"comment": "**** TODO ****"},
+	{"trigger": "draw_self\tvoid", "contents": "draw_self()$0" },
+	{"trigger": "draw_sprite\tvoid", "contents": "draw_sprite(${1:sprite_index},${2:image_index},${3:x},${4:y})$0" },
+	{"trigger": "draw_sprite_ext\tvoid", "contents": "draw_sprite_ext(${1:sprite_index},${2:image_index},${3:x},${4:y},${5:image_xscale},${6:image_yscale},${7:image_angle},${8:image_blend},${9:image_alpha})$0" },
+	{"trigger": "draw_sprite_general\tvoid", "contents": "draw_sprite_general(${1:sprite_index},${2:image_index},${3:spritePartX},${4:spritePartY},${5:spritePartWidth},${6:spritePartHeight},${7:resultX},${8:resultY},${9:image_xscale},${10:image_yscale},${11:image_angle},${12:topLeftColour},${13:topRightColour},${14:bottomLeftColour},${15:bottomRightColour},${16:image_alpha})$0" },
+	{"trigger": "draw_sprite_part\tvoid", "contents": "draw_sprite_part(${1:sprite_index},${2:image_index},${3:spritePartX},${4:spritePartY},${5:spritePartWidth},${6:spritePartHeight},${7:resultX},${8:resultY})$0" },
+	{"trigger": "draw_sprite_part_ext\tvoid", "contents": "draw_sprite_part_ext(${1:sprite_index},${2:image_index},${3:spritePartX},${4:spritePartY},${5:spritePartWidth},${6:spritePartHeight},${7:resultX},${8:resultY},${9:image_xscale},${10:image_yscale},${11:image_blend},${12:image_alpha})$0" },
+	{"trigger": "draw_sprite_pos\tvoid", "contents": "draw_sprite_pos(${1:sprite_index},${2:image_index},${3:topLeftX},${4:topLeftY},${5:topRightX},${6:topRightY},${7:bottomRightX},${8:bottomRightY},${9:bottomLeftX},${10:bottomRightY})$0" },
+	{"trigger": "draw_sprite_stretched\tvoid", "contents": "draw_sprite_stretched(${1:sprite_index},${2:image_index},${3:x},${4:y},${5:sprite_width},${6:sprite_height})$0" },
+	{"trigger": "draw_sprite_stretched_ext\tvoid", "contents": "draw_sprite_stretched_ext(${1:sprite_index},${2:image_index},${3:x},${4:y},${5:sprite_width},${6:sprite_height},${7:image_blend},${8:image_alpha})$0" },
+	{"trigger": "draw_sprite_tiled\tvoid", "contents": "draw_sprite_tiled(${1:sprite_index},${2:image_index},${3:x},${4:y})$0" },
+	{"trigger": "draw_sprite_tiled_ext\tvoid", "contents": "draw_sprite_tiled_ext(${1:sprite_index},${2:image_index},${3:x},${4:y},${5:sprite_width},${6:sprite_height},${7:image_blend},${8:image_alpha})$0" }
 
     ]
 }
