@@ -5,8 +5,8 @@
 {"comment": "**** Functions ****"},
 {"trigger": "draw_enable_drawevent\tvoid", "contents": "draw_enable_drawevent(${1:true})$0" },
 {"trigger": "draw_enable_swf_aa\tvoid", "contents": "draw_enable_swf_aa(${1:true})$0" },
-{"trigger": "draw_get_swf_aa_level\tFUNCTION", "contents": "draw_get_swf_aa_level($1)$0" },
-{"trigger": "draw_set_swf_aa_level\tFUNCTION", "contents": "draw_set_swf_aa_level($1)$0" },
+{"trigger": "draw_get_swf_aa_level\treal", "contents": "draw_get_swf_aa_level()$0" },
+{"trigger": "draw_set_swf_aa_level\tvoid", "contents": "draw_set_swf_aa_level(${1:value})$0" },
 
     ]
 }

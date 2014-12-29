@@ -6,13 +6,26 @@
 	{"comment": "==== Subgroup ===="},
 
 {"comment": "**** Functions ****"},
-	{"comment": "==== Subgroup ===="},
+	{"comment": "==== Misc ===="},
+		{"trigger": "draw_healthbar\tvoid", "contents": "draw_healthbar(${1:left},${2:top},${3:right},${4:bottom},${5:ammount0to100},${6:backgroundColour},${7:lowHealthColour},${8:fullHealthColour},${9:direction 0=left 1=right 2=top 3=bottom},${10:showBackground},${11:showDefaultBorder})$0" },
+		{"trigger": "draw_path\tvoid", "contents": "draw_path(${1:pathID},${2:x},${3:y},${4:absolutePosition})$0" },
+		{"trigger": "draw_arrow\tvoid", "contents": "draw_arrow(${1:startX},${2:startY},${3:endX},${4:endY},${5:headLength})$0" },
+		{"trigger": "draw_button\tvoid", "contents": "draw_button(${1:left},${2:top},${3:right},${4:bottom},${5:up})$0" },
+
+	{"comment": "==== Line ===="},
+		{"trigger": "draw_line\tvoid", "contents": "draw_line(${1:startX},${2:startY},${3:endX},${4:endY})$0" },
+		{"trigger": "draw_line_color\tvoid", "contents": "draw_line_color(${1:startX},${2:startY},${3:endX},${4:endY},${5:startColor},${6:endColor})$0" },
+		{"trigger": "draw_line_colour\tvoid", "contents": "draw_line_colour(${1:startX},${2:startY},${3:endX},${4:endY},${5:startColour},${6:endColour})$0" },
+		{"trigger": "draw_line_width\tvoid", "contents": "draw_line_width(${1:startX},${2:startY},${3:endX},${4:endY},${5:lineWidth})$0" },
+		{"trigger": "draw_line_width_color\tvoid", "contents": "draw_line_width_color(${1:startX},${2:startY},${3:endX},${4:endY},${5:lineWidth},${6:startColor},${7:endColor})$0" },
+		{"trigger": "draw_line_width_colour\tvoid", "contents": "draw_line_width_colour(${1:startX},${2:startY},${3:endX},${4:endY},${5:lineWidth},${6:startColour},${7:endColour})$0" },
+
+	{"comment": "==== Rectangle ===="},
+		{"trigger": "draw_rectangle\tvoid", "contents": "draw_rectangle(${1:left},${2:top},${3:right},${4:bottom},${5:isOutline})$0" },
+		{"trigger": "draw_rectangle_color\tvoid", "contents": "draw_rectangle_color(${1:left},${2:top},${3:right},${4:bottom},${5:topLeftColor},${6:topRightColor},${7:bottomRightColor},${8:bottomLeftColor},${9:isOutline})$0" },
+		{"trigger": "draw_rectangle_colour\tvoid", "contents": "draw_rectangle_colour(${1:left},${2:top},${3:right},${4:bottom},${5:topLeftColour},${6:topRightColour},${7:bottomRightColour},${8:bottomLeftColour},${9:isOutline})$0" },
 
 {"comment": "**** TODO ****"},
-{"trigger": "draw_healthbar\tFUNCTION", "contents": "draw_healthbar($1)$0" },
-{"trigger": "draw_path\tFUNCTION", "contents": "draw_path($1)$0" },
-{"trigger": "draw_arrow\tFUNCTION", "contents": "draw_arrow($1)$0" },
-{"trigger": "draw_button\tFUNCTION", "contents": "draw_button($1)$0" },
 
 {"trigger": "draw_set_circle_precision\tFUNCTION", "contents": "draw_set_circle_precision($1)$0" },
 
@@ -24,24 +37,12 @@
 {"trigger": "draw_triangle_color\tFUNCTION", "contents": "draw_triangle_color($1)$0" },
 {"trigger": "draw_triangle_colour\tFUNCTION", "contents": "draw_triangle_colour($1)$0" },
 
-{"trigger": "draw_rectangle\tFUNCTION", "contents": "draw_rectangle($1)$0" },
-{"trigger": "draw_rectangle_color\tFUNCTION", "contents": "draw_rectangle_color($1)$0" },
-{"trigger": "draw_rectangle_colour\tFUNCTION", "contents": "draw_rectangle_colour($1)$0" },
-
 {"trigger": "draw_roundrect\tFUNCTION", "contents": "draw_roundrect($1)$0" },
 {"trigger": "draw_roundrect_color\tFUNCTION", "contents": "draw_roundrect_color($1)$0" },
 {"trigger": "draw_roundrect_color_ext\tFUNCTION", "contents": "draw_roundrect_color_ext($1)$0" },
 {"trigger": "draw_roundrect_colour\tFUNCTION", "contents": "draw_roundrect_colour($1)$0" },
 {"trigger": "draw_roundrect_colour_ext\tFUNCTION", "contents": "draw_roundrect_colour_ext($1)$0" },
 {"trigger": "draw_roundrect_ext\tFUNCTION", "contents": "draw_roundrect_ext($1)$0" },
-
-
-{"trigger": "draw_line\tFUNCTION", "contents": "draw_line($1)$0" },
-{"trigger": "draw_line_color\tFUNCTION", "contents": "draw_line_color($1)$0" },
-{"trigger": "draw_line_colour\tFUNCTION", "contents": "draw_line_colour($1)$0" },
-{"trigger": "draw_line_width\tFUNCTION", "contents": "draw_line_width($1)$0" },
-{"trigger": "draw_line_width_color\tFUNCTION", "contents": "draw_line_width_color($1)$0" },
-{"trigger": "draw_line_width_colour\tFUNCTION", "contents": "draw_line_width_colour($1)$0" },
 
 {"trigger": "draw_point\tFUNCTION", "contents": "draw_point($1)$0" },
 {"trigger": "draw_point_color\tFUNCTION", "contents": "draw_point_color($1)$0" },
