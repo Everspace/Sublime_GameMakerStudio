@@ -1,0 +1,26 @@
+{
+    "scope": "source.gml",
+    "completions": [
+{"comment": "**** Functions ****"},
+	{"comment": "==== Create/Destroy ===="},
+		{"trigger": "ds_queue_create\tqueueID", "contents": "ds_queue_create()$0" },
+		{"trigger": "ds_queue_destroy\tvoid", "contents": "ds_queue_destroy(${1:queueID})$0" },
+
+	{"comment": "==== DS Info ===="},
+		{"trigger": "ds_queue_empty\tboolean", "contents": "ds_queue_empty(${1:queueID})$0" },
+		{"trigger": "ds_queue_size\tinteger", "contents": "ds_queue_size(${1:queueID})$0" },
+		{"trigger": "ds_queue_head\tvalue", "contents": "ds_queue_head(${1:queueID})$0" },
+		{"trigger": "ds_queue_tail\tvalue", "contents": "ds_queue_tail(${1:queueID})$0" },
+
+	{"comment": "==== Add or remove ===="},	
+		{"trigger": "ds_queue_dequeue\tvoid", "contents": "ds_queue_dequeue(${1:queueID})$0" },
+		{"trigger": "ds_queue_enqueue\tvoid", "contents": "ds_queue_enqueue(${1:queueID},${2:values...})$0" },
+
+		{"trigger": "ds_queue_copy\tvoid", "contents": "ds_queue_copy(${1:queueIDto},${2:queueIDfrom})$0" },
+		{"trigger": "ds_queue_clear\tvoid", "contents": "ds_queue_clear(${1:queueID})$0" },
+
+	{"comment": "==== I/O ===="},
+		{"trigger": "ds_queue_read\tvoid", "contents": "ds_queue_read(${1:queueID},${2:input})$0" },
+		{"trigger": "ds_queue_write\tstring", "contents": "ds_queue_write(${1:queueID})$0" },
+    ]
+}

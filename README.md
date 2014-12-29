@@ -91,11 +91,11 @@ All functions known to GM:S are *autocompleteable*. When a section in the docume
   - [ ] Shader Constants
 
 ##### Advanced Functions
-- [ ] Data Structures
+- [x] ~~Data Structures~~
   - [x] ~~Stacks~~
-  - [ ] Queues
+  - [x] ~~Queues~~
   - [x] ~~Lists~~
-  - [ ] Maps
+  - [x] ~~Maps~~
   - [x] ~~Priority Queues~~
   - [x] ~~Grids~~
 - [ ] Particles

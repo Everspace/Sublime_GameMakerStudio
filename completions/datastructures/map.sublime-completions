@@ -1,0 +1,40 @@
+{
+    "scope": "source.gml",
+    "completions": [
+    
+{"comment": "**** Functions ****"},
+	{"comment": "==== Create/Destroy ===="},
+		{"trigger": "ds_map_create\tmapID", "contents": "ds_map_create()$0" },
+		{"trigger": "ds_map_destroy\tvoid", "contents": "ds_map_destroy(${1:mapID})$0" },
+
+	{"comment": "==== DS Info ===="},
+		{"trigger": "ds_map_size\tinteger", "contents": "ds_map_size(${1:mapID})$0" },
+		{"trigger": "ds_map_exists\tboolean", "contents": "ds_map_exists(${1:mapID},${2:key})$0" },
+		{"trigger": "ds_map_empty\tboolean", "contents": "ds_map_empty(${1:mapID})$0" },
+		{"trigger": "ds_map_find_first\tvalue", "contents": "ds_map_find_first(${1:mapID})$0" },
+		{"trigger": "ds_map_find_last\tvalue", "contents": "ds_map_find_last(${1:mapID})$0" },
+		{"trigger": "ds_map_find_next\tvalue", "contents": "ds_map_find_next(${1:mapID},${2:key})$0" },
+		{"trigger": "ds_map_find_previous\tvalue", "contents": "ds_map_find_previous(${1:mapID},${2:key})$0" },
+		{"trigger": "ds_map_find_value\tvalue", "contents": "ds_map_find_value(${1:mapID},${2:key})$0" },
+
+	{"comment": "==== Add or remove ===="},	
+		{"trigger": "ds_map_clear\tvoid", "contents": "ds_map_clear(${1:mapID})$0" },
+		{"trigger": "ds_map_copy\tvoid", "contents": "ds_map_copy(${1:mapIDto},${2:mapIDfrom})$0" },
+
+		{"trigger": "ds_map_add\tvoid", "contents": "ds_map_add(${1:mapID},${2:key},${3:value})$0" },
+		{"trigger": "ds_map_delete\tvoid", "contents": "ds_map_delete(${1:mapID},${2:key})$0" },
+		{"trigger": "ds_map_replace\tvoid", "contents": "ds_map_replace(${1:mapID},${2:key},${3:value})$0" },
+
+		{"trigger": "ds_map_add_map\tvoid", "contents": "ds_map_add_map(${1:mapID},${2:key},${3:mapID})$0" },
+		{"trigger": "ds_map_replace_map\tvoid", "contents": "ds_map_replace_map(${1:mapID},${2:key},${3:mapID})$0" },
+
+		{"trigger": "ds_map_add_list\tvoid", "contents": "ds_map_add_list(${1:mapID},${2:key},${3:listID})$0" },
+		{"trigger": "ds_map_replace_list\tvoid", "contents": "ds_map_replace_list(${1:mapID},${2:key},${3:listID})$0" },
+
+	{"comment": "==== I/O ===="},
+		{"trigger": "ds_map_read\tvoid", "contents": "ds_map_read(${1:mapID},${2:input})$0" },
+		{"trigger": "ds_map_write\tstring", "contents": "ds_map_write(${1:mapID})$0" },
+		{"trigger": "ds_map_secure_load\tmapID", "contents": "ds_map_secure_load(${1:filename})$0" },
+		{"trigger": "ds_map_secure_save\tboolean", "contents": "ds_map_secure_save(${1:mapID},${2:filename})$0" }
+    ]
+}
