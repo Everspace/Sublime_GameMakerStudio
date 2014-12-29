@@ -87,17 +87,9 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Octals</string>
-			<key>match</key>
-			<string>\b(0[0-9]+)\b</string>
-			<key>name</key>
-			<string>constant.numeric.octal.gml</string>
-		</dict>
-		<dict>
-			<key>comment</key>
 			<string>Hex</string>
 			<key>match</key>
-			<string>\b(0x[0-9]*)\b</string>
+			<string>\b(\$[0-9]*)\b</string>
 			<key>name</key>
 			<string>constant.numeric.hex.gml</string>
 		</dict>
