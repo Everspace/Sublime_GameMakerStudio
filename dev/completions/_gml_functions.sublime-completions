@@ -1,12 +1,7 @@
 {
 	"scope": "source.gml",
 	"completions":	[
-{"trigger": "array_height_2d\tFUNCTION", "contents": "array_height_2d()$0" },
-{"trigger": "array_length_1d\tFUNCTION", "contents": "array_length_1d()$0" },
-{"trigger": "array_length_2d\tFUNCTION", "contents": "array_length_2d()$0" },
-
 {"trigger": "move_bounce\tFUNCTION?", "contents": "move_bounce($1)$0" },
-{"trigger": "is_array\tboolean", "contents": "is_array()$0" },
 {"trigger": "achievement_available\tFUNCTION", "contents": "achievement_available($1)$0" },
 {"trigger": "achievement_event\tFUNCTION", "contents": "achievement_event($1)$0" },
 {"trigger": "achievement_get_challenges\tFUNCTION", "contents": "achievement_get_challenges($1)$0" },
