@@ -97,7 +97,7 @@ All functions known to GM:S are *autocompleteable*. When a section in the docume
   - [x] ~~Lists~~
   - [ ] Maps
   - [x] ~~Priority Queues~~
-  - [ ] Grids
+  - [x] ~~Grids~~
 - [ ] Particles
   - [ ] Simple Effects
   - [ ] Particle Systems

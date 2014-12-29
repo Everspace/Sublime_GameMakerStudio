@@ -1,0 +1,77 @@
+{
+    "scope": "source.gml",
+    "comment": "Some of the functions end up returning String or Real. Documentation is unclear on what goes where."
+    "completions": [
+    
+{"comment": "**** Constants ****"},
+	{"comment": "==== Subgroup ===="},
+
+{"comment": "**** Functions ****"},
+
+	{"comment": "==== Create/Destroy ===="},
+		{"trigger": "ds_grid_create\tgridID", "contents": "ds_grid_create(${1:gridID})$0" },
+		{"trigger": "ds_grid_destroy\tvoid", "contents": "ds_grid_destroy(${1:gridID})$0" },
+
+	{"comment": "==== DS Info ===="},
+		{"trigger": "ds_grid_get\tvalue", "contents": "ds_grid_get(${1:gridID},${1:gridX},${1:gridY})$0" },
+
+		{"trigger": "ds_grid_value_exists\tboolean", "contents": "ds_grid_value_exists(${1:gridID},${2:value})$0" },
+		{"trigger": "ds_grid_value_x\tvalue", "contents": "ds_grid_value_x(${1:gridID},${2:value})$0" },
+		{"trigger": "ds_grid_value_y\tvalue", "contents": "ds_grid_value_y(${1:gridID},${2:value})$0" },
+
+		{"trigger": "ds_grid_height\tinteger", "contents": "ds_grid_height(${1:gridID})$0" },
+		{"trigger": "ds_grid_width\tinteger", "contents": "ds_grid_width(${1:gridID})$0" },
+
+	{"comment": "==== Modify ===="},	
+
+		{"trigger": "ds_grid_add\tvoid", "contents": "ds_grid_add(${1:gridID},${2:gridX},${3:gridY}, ${4:value})$0" },
+		{"trigger": "ds_grid_multiply\tvoid", "contents": "ds_grid_multiply(${1:gridID},${2:gridX},${3:gridY}, ${4:value})$0" },
+		{"trigger": "ds_grid_set\tvoid", "contents": "ds_grid_set(${1:gridID},${2:gridX},${3:gridY}, ${4:value})$0" },
+
+		{"trigger": "ds_grid_clear\tvoid", "contents": "ds_grid_clear(${1:gridID},${2:fillValue})$0" },
+		{"trigger": "ds_grid_resize\tvoid", "contents": "ds_grid_resize(${1:gridID},${2:newWidth},${3:newHeight})$0" },
+
+
+	{"comment": "==== Disk ===="},	
+		{"comment": "==== Info ===="},
+			{"trigger": "ds_grid_value_disk_exists\tboolean", "contents": "ds_grid_value_disk_exists(${1:gridID},${2:diskCenterX},${3:diskCenterY},${4:radius},${5:value})$0" },
+			{"trigger": "ds_grid_value_disk_x\treal?", "contents": "ds_grid_value_disk_x(${1:gridID},${2:diskCenterX},${3:diskCenterY},${4:radius},${5:value})$0" },
+			{"trigger": "ds_grid_value_disk_y\treal?", "contents": "ds_grid_value_disk_y(${1:gridID},${2:diskCenterX},${3:diskCenterY},${4:radius},${5:value})$0" },
+			{"trigger": "ds_grid_get_disk_max\treal?", "contents": "ds_grid_get_disk_max(${1:gridID},${2:diskCenterX},${3:diskCenterY},${4:radius})$0" },
+			{"trigger": "ds_grid_get_disk_mean\treal", "contents": "ds_grid_get_disk_mean(${1:gridID},${2:diskCenterX},${3:diskCenterY},${4:radius})$0" },
+			{"trigger": "ds_grid_get_disk_min\treal?", "contents": "ds_grid_get_disk_min(${1:gridID},${2:diskCenterX},${3:diskCenterY},${4:radius})$0" },
+			{"trigger": "ds_grid_get_disk_sum\treal?", "contents": "ds_grid_get_disk_sum(${1:gridID},${2:diskCenterX},${3:diskCenterY},${4:radius})$0" },
+
+		{"comment": "==== Modify ===="},	
+			{"trigger": "ds_grid_add_disk\tvoid", "contents": "ds_grid_add_disk(${1:gridID},${2:diskX},${3:diskY},${4:radius},${5:value})$0" },
+			{"trigger": "ds_grid_multiply_disk\treal", "contents": "ds_grid_multiply_disk(${1:gridID},${2:diskCenterX},${3:diskCenterY},${4:radius},${5:value})$0" },
+			{"trigger": "ds_grid_set_disk\tvoid", "contents": "ds_grid_set_disk(${1:gridID},${2:diskCenterX},${3:diskCenterY},${4:radius},${5:value})$0" },
+
+
+	{"comment": "==== Region ===="},	
+		{"comment": "==== Info ===="},
+			{"trigger": "ds_grid_get_max\tvalue", "contents": "ds_grid_get_max(${1:gridID},${2:leftBoundry},${3:topBoundry},${4:rightBoundry},${5:bottomBoundry})$0" },
+			{"trigger": "ds_grid_get_mean\treal", "contents": "ds_grid_get_mean(${1:gridID},${2:leftBoundry},${3:topBoundry},${4:rightBoundry},${5:bottomBoundry})$0" },
+			{"trigger": "ds_grid_get_min\tvalue", "contents": "ds_grid_get_min(${1:gridID},${2:leftBoundry},${3:topBoundry},${4:rightBoundry},${5:bottomBoundry})$0" },
+			{"trigger": "ds_grid_get_sum\treal", "contents": "ds_grid_get_sum(${1:gridID},${2:leftBoundry},${3:topBoundry},${4:rightBoundry},${5:bottomBoundry})$0" },
+
+		{"comment": "==== Modify ===="},	
+			{"trigger": "ds_grid_set_region\tvoid", "contents": "ds_grid_set_region(${1:gridID},${2:leftBoundry},${3:topBoundry},${4:rightBoundry},${5:bottomBoundry},${6:value})$0" },
+			{"trigger": "ds_grid_add_region\tvoid", "contents": "ds_grid_add_region(${1:gridID},${2:leftBoundry},${3:topBoundry},${4:rightBoundry},${5:bottomBoundry},${6:value})$0" },
+			{"trigger": "ds_grid_multiply_region\tvoid", "contents": "ds_grid_multiply_region(${1:gridID},${2:leftBoundry},${3:topBoundry},${4:rightBoundry},${5:bottomBoundry},${6:value})$0" },
+
+	{"comment": "==== Grid on Grid action ===="},	
+		{"trigger": "ds_grid_copy\tvoid", "contents": "ds_grid_copy(${1:gridIDTarget},${2:gridIDSource})$0" },
+		{"trigger": "ds_grid_add_grid_region\tvoid", "contents": "ds_grid_add_grid_region(${1:gridIDTarget},${2:gridIDSource},${3:sourceLeftBoundry},${4:sourceTopBoundry},${5:sourceRightBoundry},${6:sourceBottomBoundry},${7:targetX},${8:targetY})$0" },	
+		{"trigger": "ds_grid_multiply_grid_region\tvoid", "contents": "ds_grid_multiply_grid_region(${1:gridIDTarget},${2:gridIDSource},${3:sourceLeftBoundry},${4:sourceTopBoundry},${5:sourceRightBoundry},${6:sourceBottomBoundry},${7:targetX},${8:targetY})$0" },
+		{"trigger": "ds_grid_set_grid_region\tvoid", "contents": "ds_grid_set_grid_region(${1:gridIDTarget},${2:gridIDSource},${3:sourceLeftBoundry},${4:sourceTopBoundry},${5:sourceRightBoundry},${6:sourceBottomBoundry},${7:targetX},${8:targetY})$0" },
+
+	{"comment": "==== I/O ===="},
+		{"trigger": "ds_grid_read\tvoid", "contents": "ds_grid_read(${1:gridID},${2:input})$0" },
+		{"trigger": "ds_grid_write\tstring", "contents": "ds_grid_write(${1:gridID})$0" },
+
+	{"comment": "==== Ordering ===="},
+		{"trigger": "ds_grid_sort\tvoid", "contents": "ds_grid_sort(${1:gridID},${2:columnX},${3:acending})$0" },
+		{"trigger": "ds_grid_shuffle\tvoid", "contents": "ds_grid_shuffle(${1:gridID})$0" },
+    ]
+}
