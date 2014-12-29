@@ -1,0 +1,23 @@
+{
+    "scope": "source.gml",
+    "completions": [
+
+{"comment": "**** Constants ****"},
+	{"comment": "==== Subgroup ===="},
+
+{"comment": "**** Functions ****"},
+	{"comment": "==== Subgroup ===="},
+
+{"comment": "**** TODO ****"},
+{"trigger": "draw_background\tFUNCTION", "contents": "draw_background($1)$0" },
+{"trigger": "draw_background_ext\tFUNCTION", "contents": "draw_background_ext($1)$0" },
+{"trigger": "draw_background_general\tFUNCTION", "contents": "draw_background_general($1)$0" },
+{"trigger": "draw_background_part\tFUNCTION", "contents": "draw_background_part($1)$0" },
+{"trigger": "draw_background_part_ext\tFUNCTION", "contents": "draw_background_part_ext($1)$0" },
+{"trigger": "draw_background_stretched\tFUNCTION", "contents": "draw_background_stretched($1)$0" },
+{"trigger": "draw_background_stretched_ext\tFUNCTION", "contents": "draw_background_stretched_ext($1)$0" },
+{"trigger": "draw_background_tiled\tFUNCTION", "contents": "draw_background_tiled($1)$0" },
+{"trigger": "draw_background_tiled_ext\tFUNCTION", "contents": "draw_background_tiled_ext($1)$0" },
+
+    ]
+}

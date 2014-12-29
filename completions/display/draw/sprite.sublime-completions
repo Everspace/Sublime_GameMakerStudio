@@ -1,0 +1,38 @@
+{
+    "scope": "source.gml",
+    "completions": [
+{"comment": "**** Variables ****"},
+{ "triggers": "sprite_index\tlocal spriteID", "contents": "sprite_index" }
+{ "triggers": "sprite_width\tlocal real", "contents": "sprite_width" }
+{ "triggers": "sprite_height\tlocal real", "contents": "sprite_height" }
+{ "triggers": "sprite_xoffset\tlocal real", "contents": "sprite_xoffset" }
+{ "triggers": "sprite_yoffset\tlocal real", "contents": "sprite_yoffset" }
+{ "triggers": "image_alpha\tlocal real", "contents": "image_alpha" }
+{ "triggers": "image_angle\tlocal real", "contents": "image_angle" }
+{ "triggers": "image_blend\tlocal colour", "contents": "image_blend" }
+{ "triggers": "image_index\tlocal real", "contents": "image_index" }
+{ "triggers": "image_number\tlocal real", "contents": "image_number" }
+{ "triggers": "image_speed\tlocal real", "contents": "image_speed" }
+{ "triggers": "image_xscale\tlocal real", "contents": "image_xscale" }
+{ "triggers": "image_yscale\tlocal real", "contents": "image_yscale" }
+    
+{"comment": "**** Constants ****"},
+	{"comment": "==== Subgroup ===="},
+
+{"comment": "**** Functions ****"},
+{"trigger": "draw_self\tvoid", "contents": "draw_self($1)$0" },
+{"trigger": "draw_sprite\tvoid", "contents": "draw_sprite($1)$0" },
+{"trigger": "draw_sprite_ext\tvoid", "contents": "draw_sprite_ext($1)$0" },
+{"trigger": "draw_sprite_general\tvoid", "contents": "draw_sprite_general($1)$0" },
+{"trigger": "draw_sprite_part\tvoid", "contents": "draw_sprite_part($1)$0" },
+{"trigger": "draw_sprite_part_ext\tvoid", "contents": "draw_sprite_part_ext($1)$0" },
+{"trigger": "draw_sprite_pos\tvoid", "contents": "draw_sprite_pos($1)$0" },
+{"trigger": "draw_sprite_stretched\tvoid", "contents": "draw_sprite_stretched($1)$0" },
+{"trigger": "draw_sprite_stretched_ext\tvoid", "contents": "draw_sprite_stretched_ext($1)$0" },
+{"trigger": "draw_sprite_tiled\tvoid", "contents": "draw_sprite_tiled($1)$0" },
+{"trigger": "draw_sprite_tiled_ext\tvoid", "contents": "draw_sprite_tiled_ext($1)$0" },
+
+{"comment": "**** TODO ****"},
+
+    ]
+}

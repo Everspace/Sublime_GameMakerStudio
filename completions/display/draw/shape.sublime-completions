@@ -1,0 +1,55 @@
+{
+    "scope": "source.gml",
+    "completions": [
+    
+{"comment": "**** Constants ****"},
+	{"comment": "==== Subgroup ===="},
+
+{"comment": "**** Functions ****"},
+	{"comment": "==== Subgroup ===="},
+
+{"comment": "**** TODO ****"},
+{"trigger": "draw_healthbar\tFUNCTION", "contents": "draw_healthbar($1)$0" },
+{"trigger": "draw_path\tFUNCTION", "contents": "draw_path($1)$0" },
+{"trigger": "draw_arrow\tFUNCTION", "contents": "draw_arrow($1)$0" },
+{"trigger": "draw_button\tFUNCTION", "contents": "draw_button($1)$0" },
+
+{"trigger": "draw_set_circle_precision\tFUNCTION", "contents": "draw_set_circle_precision($1)$0" },
+
+{"trigger": "draw_circle\tFUNCTION", "contents": "draw_circle($1)$0" },
+{"trigger": "draw_circle_color\tFUNCTION", "contents": "draw_circle_color($1)$0" },
+{"trigger": "draw_circle_colour\tFUNCTION", "contents": "draw_circle_colour($1)$0" },
+
+{"trigger": "draw_triangle\tFUNCTION", "contents": "draw_triangle($1)$0" },
+{"trigger": "draw_triangle_color\tFUNCTION", "contents": "draw_triangle_color($1)$0" },
+{"trigger": "draw_triangle_colour\tFUNCTION", "contents": "draw_triangle_colour($1)$0" },
+
+{"trigger": "draw_rectangle\tFUNCTION", "contents": "draw_rectangle($1)$0" },
+{"trigger": "draw_rectangle_color\tFUNCTION", "contents": "draw_rectangle_color($1)$0" },
+{"trigger": "draw_rectangle_colour\tFUNCTION", "contents": "draw_rectangle_colour($1)$0" },
+
+{"trigger": "draw_roundrect\tFUNCTION", "contents": "draw_roundrect($1)$0" },
+{"trigger": "draw_roundrect_color\tFUNCTION", "contents": "draw_roundrect_color($1)$0" },
+{"trigger": "draw_roundrect_color_ext\tFUNCTION", "contents": "draw_roundrect_color_ext($1)$0" },
+{"trigger": "draw_roundrect_colour\tFUNCTION", "contents": "draw_roundrect_colour($1)$0" },
+{"trigger": "draw_roundrect_colour_ext\tFUNCTION", "contents": "draw_roundrect_colour_ext($1)$0" },
+{"trigger": "draw_roundrect_ext\tFUNCTION", "contents": "draw_roundrect_ext($1)$0" },
+
+
+{"trigger": "draw_line\tFUNCTION", "contents": "draw_line($1)$0" },
+{"trigger": "draw_line_color\tFUNCTION", "contents": "draw_line_color($1)$0" },
+{"trigger": "draw_line_colour\tFUNCTION", "contents": "draw_line_colour($1)$0" },
+{"trigger": "draw_line_width\tFUNCTION", "contents": "draw_line_width($1)$0" },
+{"trigger": "draw_line_width_color\tFUNCTION", "contents": "draw_line_width_color($1)$0" },
+{"trigger": "draw_line_width_colour\tFUNCTION", "contents": "draw_line_width_colour($1)$0" },
+
+{"trigger": "draw_point\tFUNCTION", "contents": "draw_point($1)$0" },
+{"trigger": "draw_point_color\tFUNCTION", "contents": "draw_point_color($1)$0" },
+{"trigger": "draw_point_colour\tFUNCTION", "contents": "draw_point_colour($1)$0" },
+
+{"trigger": "draw_ellipse\tFUNCTION", "contents": "draw_ellipse($1)$0" },
+{"trigger": "draw_ellipse_color\tFUNCTION", "contents": "draw_ellipse_color($1)$0" },
+{"trigger": "draw_ellipse_colour\tFUNCTION", "contents": "draw_ellipse_colour($1)$0" },
+
+    ]
+}

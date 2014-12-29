@@ -1,0 +1,41 @@
+{
+    "scope": "source.gml",
+    "completions": [
+    
+{"comment": "**** Constants ****"},
+	{"trigger": "fa_left\tconstant", "contents": "fa_left"},
+	{"trigger": "fa_center\tconstant", "contents": "fa_center"},
+	{"trigger": "fa_right\tconstant", "contents": "fa_right"},
+
+	{"trigger": "fa_top\tCONSTANT", "contents": "fa_top"},
+	{"trigger": "fa_middle\tCONSTANT", "contents": "fa_middle"},
+	{"trigger": "fa_bottom\tCONSTANT", "contents": "fa_bottom"},
+
+{"comment": "**** Functions ****"},
+
+	{"comment": "==== Setters ===="},
+		{"trigger": "draw_set_halign\tvoid", "contents": "draw_set_halign(${1:alignmentConstant})$0" },
+		{"trigger": "draw_set_valign\tvoid", "contents": "draw_set_valign(${1:alignmentConstant})$0" },
+		{"trigger": "draw_set_font\tvoid", "contents": "draw_set_font(${1:font})$0" },
+
+	{"comment": "==== Base variants ===="},
+		{"trigger": "draw_text\tvoid", "contents": "draw_text(${1:x},${2:y},${2:string})$0" },
+		{"trigger": "draw_text_ext\tvoid", "contents": "draw_text_ext(${1:x},${2:y},${3:string},${4:lineSpacing},${5:maxLineWidth})$0" },
+		{"trigger": "draw_text_transformed\tvoid", "contents": "draw_text_transformed(${1:x},${2:y},${3:string},${4:scaleX},${5:scaleY},${6:angle})$0" },
+
+		{"trigger": "draw_text_color\tvoid", "contents": "draw_text_color(${1:x},${2:y},${3:string},${4:topLeftColor},${5:topRightColor},${6:bottomRightColor},${7:bottomLeftColor},${8:alpha})$0" },
+		{"trigger": "draw_text_colour\tvoid", "contents": "draw_text_colour(${1:x},${2:y},${3:string},${4:topLeftColour},${5:topRightColour},${6:bottomRightColour},${7:bottomLeftColour},${8:alpha})$0" },
+
+	{"comment": "==== Let's play combinatorics! ===="},
+		{"trigger": "draw_text_ext_color\tvoid", "contents": "draw_text_ext_color(${1:x},${2:y},${3:string},${4:lineSpacing},${5:maxLineWidth},${6:topLeftColor},${7:topRightColor},${8:bottomRightColor},${9:bottomLeftColor},${10:alpha})$0" },
+		{"trigger": "draw_text_ext_colour\tvoid", "contents": "draw_text_ext_colour(${1:x},${2:y},${3:string},${4:lineSpacing},${5:maxLineWidth},${6:topLeftColour},${7:topRightColour},${8:bottomRightColour},${9:bottomLeftColour},${10:alpha})$0" },
+		{"trigger": "draw_text_ext_transformed\tvoid", "contents": "draw_text_ext_transformed(${1:x},${2:y},${3:string},${4:lineSpacing},${5:maxLineWidth},${6:scaleX},${7:scaleY},${8:angle})$0" },
+		{"trigger": "draw_text_ext_transformed_color\tvoid", "contents": "draw_text_ext_transformed_color(${1:x},${2:y},${3:string},${4:lineSpacing},${5:maxLineWidth},${6:scaleX},${7:scaleY},${8:angle},${9:topLeftColor},${10:topRightColor},${11:bottomRightColor},${12:bottomLeftColor},${13:alpha})$0" },
+		{"trigger": "draw_text_ext_transformed_colour\tvoid", "contents": "draw_text_ext_transformed_colour(${1:x},${2:y},${3:string},${4:lineSpacing},${5:maxLineWidth},${6:scaleX},${7:scaleY},${8:angle},${9:topLeftColour},${10:topRightColour},${11:bottomRightColour},${12:bottomLeftColour},${13:alpha})$0" },
+		{"trigger": "draw_text_transformed_color\tvoid", "contents": "draw_text_transformed_color(${1:x},${2:y},${3:string},${4:scaleX},${5:scaleY},${6:angle},${7:topLeftColor},${8:topRightColor},${9:bottomRightColor},${10:bottomLeftColor},${11:alpha})$0" },
+		{"trigger": "draw_text_transformed_colour\tvoid", "contents": "draw_text_transformed_colour(${1:x},${2:y},${3:string},${4:scaleX},${5:scaleY},${6:angle},${7:topLeftColour},${8:topRightColour},${9:bottomRightColour},${10:bottomLeftColour},${11:alpha})$0" },
+
+	{"comment": "==== Misc ===="},
+		{"trigger": "draw_highscore\tvoid", "contents": "draw_highscore(${1:leftX},${2:topY},${3:rightX},${4:bottomY})$0" },
+    ]
+}

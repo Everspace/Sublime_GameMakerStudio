@@ -77,10 +77,11 @@ All functions known to GM:S are *autocompleteable*. When a section in the docume
   - [ ] colour And Blending
   - [ ] Drawing Basic Forms
   - [ ] Drawing Sprites And Backgrounds
-  - [ ] Drawing Text
+  - [x] ~~Drawing Text~~
   - [ ] Drawing Primitives
   - [ ] Drawing 3D
   - [ ] Drawing Surfaces
+  - [ ] Common
 - [ ] Surfaces
 - [ ] The Display, Windows And Views
   - [ ] The Game Window
