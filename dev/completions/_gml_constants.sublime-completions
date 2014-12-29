@@ -443,7 +443,7 @@
 {"trigger": "vertex_usage_psize\tCONSTANT", "contents": "vertex_usage_psize"},
 {"trigger": "vertex_usage_sample\tCONSTANT", "contents": "vertex_usage_sample"},
 {"trigger": "vertex_usage_tangent\tCONSTANT", "contents": "vertex_usage_tangent"},
-{"trigger": "vertex_usage_textcoord\tCONSTANT", "contents": "vertex_usage_textcoord"},
+{"trigger": "vertex_usage_textcoord\tCONSTANT", "contents": "vertex_usage_textcoord"}
 	]
 
 }

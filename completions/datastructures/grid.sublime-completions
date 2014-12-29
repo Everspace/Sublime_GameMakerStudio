@@ -72,6 +72,6 @@
 
 	{"comment": "==== Ordering ===="},
 		{"trigger": "ds_grid_sort\tvoid", "contents": "ds_grid_sort(${1:gridID},${2:columnX},${3:acending})$0" },
-		{"trigger": "ds_grid_shuffle\tvoid", "contents": "ds_grid_shuffle(${1:gridID})$0" },
+		{"trigger": "ds_grid_shuffle\tvoid", "contents": "ds_grid_shuffle(${1:gridID})$0" }
     ]
 }

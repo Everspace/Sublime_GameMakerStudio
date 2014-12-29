@@ -71,7 +71,7 @@
 		{"trigger": "angle_difference\tdegrees", "contents": "angle_difference(${1:degree1},${2:degree2})$0" },
 		{"trigger": "point_direction\tdegrees", "contents": "point_direction(${1:x1},${2:y1},${3:x2},${4:y2})$0" },
 		{"trigger": "point_distance\treal", "contents": "point_distance(${1:x1},${2:y1},${3:x2},${4:y2})$0" },
-		{"trigger": "point_distance_3d\treal", "contents": "point_distance_3d(${1:x1},${2:y1},${3:z1},${4:x2},${5:y2},${6:z2})$0" },
+		{"trigger": "point_distance_3d\treal", "contents": "point_distance_3d(${1:x1},${2:y1},${3:z1},${4:x2},${5:y2},${6:z2})$0" }
 	]
 
 }

@@ -45,7 +45,7 @@
 
 	{"trigger": "clipboard_get_text\tstring", "contents": "clipboard_get_text()$0" },
 	{"trigger": "clipboard_set_text\tvoid", "contents": "clipboard_set_text(${1:string})$0" },
-	{"trigger": "clipboard_has_text\tboolean", "contents": "clipboard_has_text()$0" },
+	{"trigger": "clipboard_has_text\tboolean", "contents": "clipboard_has_text()$0" }
 
 	]
 

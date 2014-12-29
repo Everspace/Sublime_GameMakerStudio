@@ -43,7 +43,7 @@
 	{"trigger": "joystick_vpos\tOBSOLETE", "contents": "joystick_vpos()$0" },
 	{"trigger": "joystick_xpos\tOBSOLETE", "contents": "joystick_xpos()$0" },
 	{"trigger": "joystick_ypos\tOBSOLETE", "contents": "joystick_ypos()$0" },
-	{"trigger": "joystick_zpos\tOBSOLETE", "contents": "joystick_zpos()$0" },
+	{"trigger": "joystick_zpos\tOBSOLETE", "contents": "joystick_zpos()$0" }
 
 
 

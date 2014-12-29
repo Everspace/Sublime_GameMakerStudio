@@ -12,6 +12,6 @@
 		
 {"comment": "**** Functions ****"},
 		{"trigger": "ds_exists\tboolean", "contents": "ds_exists(${1:ID},${2:ds_type_constant})$0" },
-		{"trigger": "ds_set_precision\tvoid", "contents": "ds_set_precision(${1:precisionValue})$0" },
+		{"trigger": "ds_set_precision\tvoid", "contents": "ds_set_precision(${1:precisionValue})$0" }
     ]
 }

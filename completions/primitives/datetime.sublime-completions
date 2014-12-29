@@ -67,6 +67,6 @@
 		{"trigger": "date_datetime_string\tstring", "contents": "date_datetime_string(${1:datetime})$0" },
 
 		{"trigger": "date_date_of\treal?", "contents": "date_date_of(${1:datetime})$0" },
-		{"trigger": "date_time_of\treal?", "contents": "date_time_of(${1:datetime})$0" },
+		{"trigger": "date_time_of\treal?", "contents": "date_time_of(${1:datetime})$0" }
     ]
 }

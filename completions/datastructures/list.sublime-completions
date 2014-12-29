@@ -29,6 +29,6 @@
 
 	{"comment": "==== Ordering ===="},
 		{"trigger": "ds_list_shuffle\tvoid", "contents": "ds_list_shuffle(${1:listID})$0" },
-		{"trigger": "ds_list_sort\tvoid", "contents": "ds_list_sort(${1:listID},${2:ascending})$0" },
+		{"trigger": "ds_list_sort\tvoid", "contents": "ds_list_sort(${1:listID},${2:ascending})$0" }
     ]
 }

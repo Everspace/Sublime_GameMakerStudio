@@ -21,6 +21,6 @@
 
 	{"comment": "==== I/O ===="},
 		{"trigger": "ds_queue_read\tvoid", "contents": "ds_queue_read(${1:queueID},${2:input})$0" },
-		{"trigger": "ds_queue_write\tstring", "contents": "ds_queue_write(${1:queueID})$0" },
+		{"trigger": "ds_queue_write\tstring", "contents": "ds_queue_write(${1:queueID})$0" }
     ]
 }

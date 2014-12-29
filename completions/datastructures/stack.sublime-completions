@@ -20,6 +20,6 @@
 
 	{"comment": "==== I/O ===="},
 		{"trigger": "ds_stack_read\tvoid", "contents": "ds_stack_read(${1:stackID},${2:inputString})$0", "comment": "Also contains a *legacy* optional"},
-		{"trigger": "ds_stack_write\tstring", "contents": "ds_stack_write(${1:stackID})$0" },
+		{"trigger": "ds_stack_write\tstring", "contents": "ds_stack_write(${1:stackID})$0" }
     ]
 }
