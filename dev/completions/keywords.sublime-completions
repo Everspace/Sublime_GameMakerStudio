@@ -12,7 +12,7 @@
 
 		{"trigger": "local\tVARIABLE SPECIAL", "contents": "local"},
 		{"trigger": "other\tVARIABLE SPECIAL", "contents": "other"},
-		{"trigger": "self\tVARIABLE SPECIAL", "contents": "self"},
+		{"trigger": "self\tVARIABLE SPECIAL", "contents": "self"}
 
 	]
 }
