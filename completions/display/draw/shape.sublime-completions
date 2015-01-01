@@ -12,6 +12,11 @@
 		{"trigger": "draw_arrow\tvoid", "contents": "draw_arrow(${1:startX},${2:startY},${3:endX},${4:endY},${5:headLength})$0" },
 		{"trigger": "draw_button\tvoid", "contents": "draw_button(${1:left},${2:top},${3:right},${4:bottom},${5:up})$0" },
 
+	{"comment": "==== Point ===="},
+		{"trigger": "draw_point\tFUNCTION", "contents": "draw_point(${1:xPosition},${2:yPosition})$0" },
+		{"trigger": "draw_point_color\tFUNCTION", "contents": "draw_point_color(${1:xPosition},${2:yPosition},${3:color})$0" },
+		{"trigger": "draw_point_colour\tFUNCTION", "contents": "draw_point_colour(${1:xPosition},${2:yPosition},${3:colour})$0" },
+
 	{"comment": "==== Line ===="},
 		{"trigger": "draw_line\tvoid", "contents": "draw_line(${1:startX},${2:startY},${3:endX},${4:endY})$0" },
 		{"trigger": "draw_line_color\tvoid", "contents": "draw_line_color(${1:startX},${2:startY},${3:endX},${4:endY},${5:startColor},${6:endColor})$0" },
@@ -25,32 +30,27 @@
 		{"trigger": "draw_rectangle_color\tvoid", "contents": "draw_rectangle_color(${1:left},${2:top},${3:right},${4:bottom},${5:topLeftColor},${6:topRightColor},${7:bottomRightColor},${8:bottomLeftColor},${9:isOutline})$0" },
 		{"trigger": "draw_rectangle_colour\tvoid", "contents": "draw_rectangle_colour(${1:left},${2:top},${3:right},${4:bottom},${5:topLeftColour},${6:topRightColour},${7:bottomRightColour},${8:bottomLeftColour},${9:isOutline})$0" },
 
-{"comment": "**** TODO ****"},
+		{"trigger": "draw_roundrect\tvoid", "contents": "draw_roundrect(${1:left},${2:top},${3:right},${4:bottom},${5:isOutline})$0" },
+		{"trigger": "draw_roundrect_color\tvoid", "contents": "draw_roundrect_color(${1:left},${2:top},${3:right},${4:bottom},${5:centerColor},${6:edgeColor},${7:isOutline})$0" },
+		{"trigger": "draw_roundrect_colour\tvoid", "contents": "draw_roundrect_colour(${1:left},${2:top},${3:right},${4:bottom},${5:centreColour},${6:edgeColour},${7:isOutline})$0" },
+		{"trigger": "draw_roundrect_ext\tvoid", "contents": "draw_roundrect_ext(${1:left},${2:top},${3:right},${4:bottom},${5:xAxisRadius},${6:yAxisRadius},${7:isOutline})$0" },
+		{"trigger": "draw_roundrect_color_ext\tvoid", "contents": "draw_roundrect_color_ext(${1:left},${2:top},${3:right},${4:bottom},${5:xAxisRadius},${6:yAxisRadius},${7:centerColor},${8:edgeColor},${9:isOutline})$0" },
+		{"trigger": "draw_roundrect_colour_ext\tvoid", "contents": "draw_roundrect_colour_ext(${1:left},${2:top},${3:right},${4:bottom},${5:xAxisRadius},${6:yAxisRadius},${7:centreColour},${8:edgeColour},${9:isOutline})$0" },
 
-{"trigger": "draw_set_circle_precision\tFUNCTION", "contents": "draw_set_circle_precision($1)$0" },
+	{"comment": "==== Ellipses ===="},
+		{"trigger": "draw_set_circle_precision\tvoid", "contents": "draw_set_circle_precision(${1:numberOfSides})$0" },
 
-{"trigger": "draw_circle\tFUNCTION", "contents": "draw_circle($1)$0" },
-{"trigger": "draw_circle_color\tFUNCTION", "contents": "draw_circle_color($1)$0" },
-{"trigger": "draw_circle_colour\tFUNCTION", "contents": "draw_circle_colour($1)$0" },
+		{"trigger": "draw_circle\tvoid", "contents": "draw_circle(${1:xPosition},${2:yPosition},${3:radius},${4:isOutline})$0" },
+		{"trigger": "draw_circle_color\tvoid", "contents": "draw_circle_color(${1:xPosition},${2:yPosition},${3:radius},${4:centerColor},${5:edgeColor},${6:isOutline})$0" },
+		{"trigger": "draw_circle_colour\tvoid", "contents": "draw_circle_colour(${1:xPosition},${2:yPosition},${3:radius},${4:centreColour},${5:edgeColour},${6:isOutline})$0" },
 
-{"trigger": "draw_triangle\tFUNCTION", "contents": "draw_triangle($1)$0" },
-{"trigger": "draw_triangle_color\tFUNCTION", "contents": "draw_triangle_color($1)$0" },
-{"trigger": "draw_triangle_colour\tFUNCTION", "contents": "draw_triangle_colour($1)$0" },
+		{"trigger": "draw_ellipse\tvoid", "contents": "draw_ellipse(${1:left},${2:top},${3:right},${4:bottom},${5:isOutline})$0" },
+		{"trigger": "draw_ellipse_color\tvoid", "contents": "draw_ellipse_color(${1:left},${2:top},${3:right},${4:bottom},${5:centerColor},${6:edgeColor},${7:isOutline})$0" },
+		{"trigger": "draw_ellipse_colour\tvoid", "contents": "draw_ellipse_colour(${1:left},${2:top},${3:right},${4:bottom},${5:centreColour},${6:edgeColour},${7:isOutline})$0" }
 
-{"trigger": "draw_roundrect\tFUNCTION", "contents": "draw_roundrect($1)$0" },
-{"trigger": "draw_roundrect_color\tFUNCTION", "contents": "draw_roundrect_color($1)$0" },
-{"trigger": "draw_roundrect_color_ext\tFUNCTION", "contents": "draw_roundrect_color_ext($1)$0" },
-{"trigger": "draw_roundrect_colour\tFUNCTION", "contents": "draw_roundrect_colour($1)$0" },
-{"trigger": "draw_roundrect_colour_ext\tFUNCTION", "contents": "draw_roundrect_colour_ext($1)$0" },
-{"trigger": "draw_roundrect_ext\tFUNCTION", "contents": "draw_roundrect_ext($1)$0" },
-
-{"trigger": "draw_point\tFUNCTION", "contents": "draw_point($1)$0" },
-{"trigger": "draw_point_color\tFUNCTION", "contents": "draw_point_color($1)$0" },
-{"trigger": "draw_point_colour\tFUNCTION", "contents": "draw_point_colour($1)$0" },
-
-{"trigger": "draw_ellipse\tFUNCTION", "contents": "draw_ellipse($1)$0" },
-{"trigger": "draw_ellipse_color\tFUNCTION", "contents": "draw_ellipse_color($1)$0" },
-{"trigger": "draw_ellipse_colour\tFUNCTION", "contents": "draw_ellipse_colour($1)$0" },
-
+	{"comment": "==== Triangle ===="},
+		{"trigger": "draw_triangle\tFUNCTION", "contents": "draw_triangle(${1:point1X},${2:point1Y},${3:point2X},${4:point2Y},${5:point3X},${6:point3Y},${7:isOutline})$0" },
+		{"trigger": "draw_triangle_color\tFUNCTION", "contents": "draw_triangle_color(${1:point1X},${2:point1Y},${3:point2X},${4:point2Y},${5:point3X},${6:point3Y},${7:point1Color},${8:point2Color},${9:point3Color},${10:isOutline})$0" },
+		{"trigger": "draw_triangle_colour\tFUNCTION", "contents": "draw_triangle_colour(${1:point1X},${2:point1Y},${3:point2X},${4:point2Y},${5:point3X},${6:point3Y},${7:point1Colour},${8:point2Colour},${9:point3Colour},${10:isOutline})$0" }
     ]
 }
