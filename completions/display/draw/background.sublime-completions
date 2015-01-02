@@ -1,23 +1,15 @@
 {
     "scope": "source.gml",
     "completions": [
-
-{"comment": "**** Constants ****"},
-	{"comment": "==== Subgroup ===="},
-
 {"comment": "**** Functions ****"},
-	{"comment": "==== Subgroup ===="},
-
-{"comment": "**** TODO ****"},
-{"trigger": "draw_background\tFUNCTION", "contents": "draw_background($1)$0" },
-{"trigger": "draw_background_ext\tFUNCTION", "contents": "draw_background_ext($1)$0" },
-{"trigger": "draw_background_general\tFUNCTION", "contents": "draw_background_general($1)$0" },
-{"trigger": "draw_background_part\tFUNCTION", "contents": "draw_background_part($1)$0" },
-{"trigger": "draw_background_part_ext\tFUNCTION", "contents": "draw_background_part_ext($1)$0" },
-{"trigger": "draw_background_stretched\tFUNCTION", "contents": "draw_background_stretched($1)$0" },
-{"trigger": "draw_background_stretched_ext\tFUNCTION", "contents": "draw_background_stretched_ext($1)$0" },
-{"trigger": "draw_background_tiled\tFUNCTION", "contents": "draw_background_tiled($1)$0" },
-{"trigger": "draw_background_tiled_ext\tFUNCTION", "contents": "draw_background_tiled_ext($1)$0" },
-
+	{"trigger": "draw_background\tFUNCTION", "contents": "draw_background(${1:backgroundIndex},${2:xPosition},${3:yPosition})$0" },
+	{"trigger": "draw_background_ext\tFUNCTION", "contents": "draw_background_ext(${1:backgroundIndex},${2:xPosition},${3:yPosition},${4:horizontalScale},${5:verticalScale},${6:angle},${7:blendColour},${8:alpha})$0" },
+	{"trigger": "draw_background_general\tFUNCTION", "contents": "draw_background_general(${1:backgroundIndex},${2:sourceXPosition},${3:sourceYPosition},${4:sourceWidth},${5:sourceHeight},${6:xPosition},${7:yPosition},${8:horizontalScale},${9:verticalScale},${10:topLeftBlendColour},${11:topRightBlendColour},${12:bottomRightBlendColour},${13:bottomLeftBlendColour},${14:alpha})$0" },
+	{"trigger": "draw_background_part\tFUNCTION", "contents": "draw_background_part(${1:backgroundIndex},${2:sourceXPosition},${3:sourceYPosition},${4:sourceWidth},${5:sourceHeight},${6:xPosition},${7:yPosition})$0" },
+	{"trigger": "draw_background_part_ext\tFUNCTION", "contents": "draw_background_part_ext(${1:backgroundIndex},${2:sourceXPosition},${3:sourceYPosition},${4:sourceWidth},${5:sourceHeight},${6:xPosition},${7:yPosition},${8:horizontalScale},${9:verticalScale},${10:alpha})$0" },
+	{"trigger": "draw_background_stretched\tFUNCTION", "contents": "draw_background_stretched(${1:backgroundIndex},${2:xPosition},${3:yPosition},${4:width},${5:height})$0" },
+	{"trigger": "draw_background_stretched_ext\tFUNCTION", "contents": "draw_background_stretched_ext(${1:backgroundIndex},${2:xPosition},${3:yPosition},${4:width},${5:height},${6:blendColour},${7:alpha})$0" },
+	{"trigger": "draw_background_tiled\tFUNCTION", "contents": "draw_background_tiled(${1:backgroundIndex},${2:xPosition},${3:yPosition})$0" },
+	{"trigger": "draw_background_tiled_ext\tFUNCTION", "contents": "draw_background_tiled_ext(${1:backgroundIndex},${2:xPosition},${3:yPosition},${4:horizontalScale},${5:verticalScale},${6:blendColour},${7:alpha})$0" }
     ]
 }

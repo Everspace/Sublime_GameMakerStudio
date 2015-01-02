@@ -77,7 +77,7 @@ All functions known to GM:S are *autocompleteable*. When a section in the docume
   - [ ] colour And Blending
   - [x] ~~Drawing Basic Forms (shapes)~~
   - [x] ~~Drawing Sprites~~
-  - [ ] Drawing Backgrounds
+  - [x] ~~Drawing Backgrounds~~
   - [x] ~~Drawing Text~~
   - [ ] Drawing Primitives
   - [ ] Drawing 3D
